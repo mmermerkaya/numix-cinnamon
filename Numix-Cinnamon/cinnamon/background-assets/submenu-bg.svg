@@ -15,7 +15,7 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r"
    sodipodi:docname="submenu-bg.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -30,7 +30,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="20.594485"
-     inkscape:cx="-2.7411206"
+     inkscape:cx="-10.097459"
      inkscape:cy="12"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -38,7 +38,7 @@
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
-     inkscape:window-height="846"
+     inkscape:window-height="875"
      inkscape:window-x="0"
      inkscape:window-y="25"
      width="400px"
@@ -137,20 +137,6 @@
        x="0"
        y="0"
        transform="translate(0,276)" />
-    <rect
-       y="277"
-       x="0"
-       height="1"
-       width="24"
-       id="rect3989"
-       style="opacity:0.25;fill:#000000;fill-opacity:1;stroke:none" />
-    <rect
-       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none"
-       id="rect3991"
-       width="24"
-       height="1"
-       x="0"
-       y="278" />
     <rect
        style="opacity:1;fill:#484848;fill-opacity:1;stroke:none"
        id="rect4023"

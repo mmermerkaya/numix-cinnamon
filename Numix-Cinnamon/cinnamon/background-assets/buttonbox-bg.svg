@@ -15,7 +15,7 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r"
    sodipodi:docname="buttonbox-bg.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -30,15 +30,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="20.594485"
-     inkscape:cx="4.8094446"
-     inkscape:cy="12"
+     inkscape:cx="-2.4497804"
+     inkscape:cy="11.902887"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
-     inkscape:window-height="846"
+     inkscape:window-height="875"
      inkscape:window-x="0"
      inkscape:window-y="25"
      width="400px"
@@ -136,20 +136,6 @@
        id="rect3985"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csssscc" />
-    <rect
-       y="277"
-       x="1"
-       height="1"
-       width="22"
-       id="rect3989-0"
-       style="opacity:0.25;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new" />
-    <rect
-       style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none;display:inline;enable-background:new"
-       id="rect3991-5"
-       width="22"
-       height="1"
-       x="1"
-       y="278" />
     <rect
        y="276"
        x="1"

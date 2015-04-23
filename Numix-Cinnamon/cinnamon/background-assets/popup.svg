@@ -15,7 +15,7 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r"
    sodipodi:docname="popup.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -30,15 +30,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="20.594485"
-     inkscape:cx="-2.7411206"
-     inkscape:cy="12"
+     inkscape:cx="-5.703079"
+     inkscape:cy="8.0183519"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
-     inkscape:window-height="846"
+     inkscape:window-height="875"
      inkscape:window-x="0"
      inkscape:window-y="25"
      width="400px"
@@ -146,7 +146,7 @@
        x="1"
        y="1"
        transform="translate(0,276)"
-       ry="2"
-       rx="2" />
+       ry="1"
+       rx="1" />
   </g>
 </svg>
