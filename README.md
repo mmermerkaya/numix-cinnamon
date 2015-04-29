@@ -1,5 +1,7 @@
 ###A theme for cinnamon __2.4__
 
+Original concept by [Numix Project](https://github.com/numixproject)
+
 ---
 
 ####Installation
