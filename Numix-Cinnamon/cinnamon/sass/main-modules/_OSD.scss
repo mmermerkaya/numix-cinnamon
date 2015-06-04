@@ -21,6 +21,6 @@
 
     .level {
         height: 5px;
-        color: saturate(darken(alpha($accent, .45), 30%), 45%);
+        color: $accent;
     }
 }

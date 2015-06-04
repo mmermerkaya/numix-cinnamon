@@ -1403,7 +1403,7 @@ StScrollBar StButton#hhandle:focus {
 }
 .osd-window .level {
   height: 5px;
-  color: rgba(116, 13, 0, 0.45);
+  color: #d64937;
 }
 
 /* ===================================================================
