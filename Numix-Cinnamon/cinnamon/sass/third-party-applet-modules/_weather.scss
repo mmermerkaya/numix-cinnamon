@@ -60,14 +60,14 @@
     padding-top: 15px;
     padding-left: 30px;
     font-size: 9pt;
-    color: $accent;
+    color: $text-primary;
 
     &-captions {
         text-align: right;
         padding: 0;
         padding-right: 5px;
         spacing: 0;
-        color: $text-primary;
+        color: $text-secondary;
     }
 }
 
@@ -80,7 +80,6 @@
 /* Forecast */
 
 .forecast {
-    color: $accent;
 }
 
 .weather-forecast-databox {

@@ -15,7 +15,7 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r"
    sodipodi:docname="animation.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -30,7 +30,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="15.328321"
-     inkscape:cx="-11.955093"
+     inkscape:cx="-11.237467"
      inkscape:cy="11.7026"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -131,20 +131,19 @@
      transform="translate(0,-276)">
     <path
        style="fill:#dcdcdc;fill-opacity:1"
-       d="m 14,281 8,0 0,8 -8,0 z"
+       d="m 20,286 -10,0 0,10 10,0 z"
        id="rect3357"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
-       id="path3816"
-       d="m 8,284 8,0 0,8 -8,0 z"
-       style="opacity:0.69999999999999996;fill:#dcdcdc;fill-opacity:1" />
+       style="opacity:0.5;fill:#dcdcdc;fill-opacity:1"
+       d="m 17,283 0,2 -8,0 0,8 -2,0 0,-10 10,0 z"
+       id="path3012"
+       inkscape:connector-curvature="0" />
     <path
-       style="opacity:0.40000000000000002;fill:#dcdcdc;fill-opacity:1"
-       d="M 2 11 L 2 19 L 10 19 L 10 16 L 8 16 L 8 11 L 2 11 z "
-       transform="translate(0,276)"
-       id="path3818" />
+       style="opacity:0.2;fill:#dcdcdc;fill-opacity:1"
+       d="m 14,280 0,2 -8,0 0,8 -2,0 0,-10 10,0 z"
+       id="path3014"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

@@ -16,7 +16,7 @@
    id="svg11300"
    sodipodi:version="0.32"
    inkscape:version="0.91 r"
-   sodipodi:docname="slider.svg"
+   sodipodi:docname="menu-5-symbolic.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new">
@@ -27,11 +27,11 @@
      pagecolor="#8c8c8c"
      bordercolor="#ff5e00"
      borderopacity="1"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="43.6875"
-     inkscape:cx="-5.5736768"
-     inkscape:cy="7.9542203"
+     inkscape:zoom="20.034692"
+     inkscape:cx="-3.0488961"
+     inkscape:cy="11.800346"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -72,7 +72,53 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <defs
-     id="defs3" />
+     id="defs3">
+    <linearGradient
+       id="linearGradient5236">
+      <stop
+         id="stop5238"
+         offset="0"
+         style="stop-color:#3e7ab6;stop-opacity:1;" />
+      <stop
+         id="stop5240"
+         offset="1"
+         style="stop-color:#6598cb;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5235">
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0"
+         id="stop5237" />
+      <stop
+         id="stop5239"
+         offset="0.34999999"
+         style="stop-color:#000000;stop-opacity:0.78431374;" />
+      <stop
+         id="stop5241"
+         offset="0.5"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.78431374;"
+         offset="0.64999998"
+         id="stop5243" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5245" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4006-3-0">
+      <stop
+         id="stop4008-3-9"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop4010-8-7"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+  </defs>
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -89,7 +135,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -130,18 +176,9 @@
      id="layer1"
      transform="translate(0,-284)">
     <path
-       id="rect5190"
-       d="m 1,290 0,4 11,0 0,-4 z m 1,1 9,0 0,2 -9,0 z"
-       style="opacity:0.55;fill:#000000;fill-opacity:1;stroke:none"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
-    <rect
-       transform="scale(-1,1)"
-       y="291"
-       x="-11"
-       height="2"
-       width="9"
-       id="rect3766"
-       style="fill:#232323;fill-opacity:1;stroke:none" />
+       d="m 3,295 2,0 0,2 -2,0 z m 8,0 2,0 0,2 -2,0 z m -4,0 2,0 0,2 -2,0 z m -4,-4 2,0 0,2 -2,0 z m 8,0 2,0 0,2 -2,0 z m -4,0 2,0 0,2 -2,0 z m -4,-4 2,0 0,2 -2,0 z m 8,0 2,0 0,2 -2,0 z m -4,0 2,0 0,2 -2,0 z"
+       style="fill:#bababa;fill-opacity:1"
+       id="path3935"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

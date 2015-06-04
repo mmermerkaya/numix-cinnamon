@@ -11,12 +11,12 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="90.000000"
    inkscape:export-xdpi="90.000000"
-   width="16"
-   height="16"
+   width="24"
+   height="24"
    id="svg11300"
    sodipodi:version="0.32"
    inkscape:version="0.91 r"
-   sodipodi:docname="slider.svg"
+   sodipodi:docname="panel-top-highlight.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
    style="display:inline;enable-background:new">
@@ -29,9 +29,9 @@
      borderopacity="1"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="43.6875"
-     inkscape:cx="-5.5736768"
-     inkscape:cy="7.9542203"
+     inkscape:zoom="24.582394"
+     inkscape:cx="3.7986028"
+     inkscape:cy="11.754018"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -46,7 +46,7 @@
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
      gridtolerance="10000"
-     inkscape:object-nodes="true"
+     inkscape:object-nodes="false"
      inkscape:snap-grids="true"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -89,7 +89,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title />
+        <dc:title></dc:title>
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -128,20 +128,22 @@
      inkscape:groupmode="layer"
      inkscape:label="Base"
      id="layer1"
-     transform="translate(0,-284)">
-    <path
-       id="rect5190"
-       d="m 1,290 0,4 11,0 0,-4 z m 1,1 9,0 0,2 -9,0 z"
-       style="opacity:0.55;fill:#000000;fill-opacity:1;stroke:none"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccc" />
+     transform="translate(0,-276)">
     <rect
-       transform="scale(-1,1)"
-       y="291"
-       x="-11"
-       height="2"
-       width="9"
-       id="rect3766"
-       style="fill:#232323;fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:#d64937;fill-opacity:1;stroke:none"
+       id="rect5315"
+       width="24"
+       height="24"
+       x="-24"
+       y="-300"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#484848;fill-opacity:1;stroke:none"
+       id="rect3873"
+       width="1"
+       height="24"
+       x="-277"
+       y="3.5527137e-15"
+       transform="matrix(0,-1,1,0,0,0)" />
   </g>
 </svg>

@@ -270,6 +270,15 @@ StScrollBar StButton#hhandle:focus {
   -arrow-rise: 8px;
   -boxpointer-gap: 2px;
 }
+.popup-menu-content {
+  border-image: url("background-assets/popup-inside.svg") 9;
+  padding: .7em 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+.popup-menu-icon, .popup-menu StIcon {
+  icon-size: 16px;
+  color: #dcdcdc;
+}
 .popup-menu-item {
   padding: .4em 1.3em;
   spacing: .8em;
@@ -278,21 +287,12 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("background-assets/hover.svg") 9;
   color: white;
 }
+.popup-menu-item:active .popup-menu-icon, .popup-menu-item:active StIcon {
+  color: #fff;
+}
 .popup-menu-item:insensitive {
   font-weight: normal;
   color: rgba(255, 255, 255, 0.1);
-}
-.popup-menu-item:active .popup-menu-icon {
-  color: #fff;
-}
-.popup-menu-content {
-  border-image: url("background-assets/popup-inside.svg") 9;
-  padding: .7em 0;
-  color: rgba(255, 255, 255, 0.8);
-}
-.popup-menu-icon {
-  icon-size: 16px;
-  color: #dcdcdc;
 }
 .popup-menu-item-dot {
   /*!*/
@@ -329,44 +329,26 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .popup-slider-menu-item {
-  border-image: url("widget-assets/slider.svg") 7;
-  min-width: 15em;
-  height: 16px;
   -slider-height: 2px;
   -slider-background-color: transparent;
   -slider-border-color: transparent;
   -slider-active-background-color: #d64937;
   -slider-active-border-color: transparent;
-  -slider-border-width: 0;
-  -slider-handle-radius: 5px;
+  -slider-border-width: 2px;
+  -slider-handle-radius: 4px;
   color: #dcdcdc;
+  border-image: url("widget-assets/slider.svg") 9 6 8 8;
+  border: 0 solid transparent;
+  min-width: 15em;
+  height: 16px;
 }
 .popup-menu-item:active .popup-slider-menu-item {
-  border-image: url("widget-assets/slider.svg") 7;
-  min-width: 15em;
-  height: 16px;
-  -slider-height: 2px;
-  -slider-background-color: transparent;
-  -slider-border-color: transparent;
-  -slider-active-background-color: #d64937;
-  -slider-active-border-color: transparent;
-  -slider-border-width: 0;
   -slider-handle-radius: 5px;
   color: white;
 }
 
-.popup-combobox-item {
-  spacing: 1em;
-}
-
-.popup-device-menu-item {
-  spacing: .5em;
-}
-
-.popup-inactive-menu-item,
-.popup-subtitle-menu-item,
-.popup-alternating-menu-item:alternate {
-  font-weight: normal;
+.popup-inactive-menu-item {
+  color: rgba(255, 255, 255, 0.4);
 }
 
 /* ===================================================================
@@ -376,7 +358,9 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("panel-assets/panel-top.svg") 4;
   font-size: 9pt;
   height: 25px;
-  /* panel edit mode */
+}
+.panel-top:highlight {
+  border-image: url("panel-assets/panel-top-highlight.svg") 4;
 }
 .panel-top #panelLeft:dnd {
   border-image: url("panel-assets/DND-panel-top-left.svg") 4;
@@ -392,7 +376,9 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("panel-assets/panel-bottom.svg") 4;
   font-size: 9pt;
   height: 25px;
-  /* panel edit mode */
+}
+.panel-bottom:highlight {
+  border-image: url("panel-assets/panel-bottom-highlight.svg") 4;
 }
 .panel-bottom #panelLeft:dnd {
   border-image: url("panel-assets/DND-panel-bottom-left.svg") 4;
@@ -402,6 +388,13 @@ StScrollBar StButton#hhandle:focus {
 }
 .panel-bottom #panelRight:dnd {
   border-image: url("panel-assets/DND-panel-bottom-right.svg") 4;
+}
+
+.panel-dummy {
+  background-color: rgba(214, 73, 55, 0.8);
+}
+.panel-dummy:entered {
+  background-color: #d64937;
 }
 
 /* This styles the systray items */
@@ -1388,15 +1381,29 @@ StScrollBar StButton#hhandle:focus {
 }
 
 /* ===================================================================
-   ! Snap/Tile OSD
-   ===================================================================*/
-.snap-osd {
-  border-image: url("background-assets/popup.svg") 9;
-  font-size: 12pt;
-  font-weight: bold;
-  padding: 14px;
-  color: rgba(255, 255, 255, 0.8);
+ * ! OSD
+ * ===================================================================*/
+.info-osd {
   text-align: center;
+  font-weight: bold;
+  spacing: 1em;
+  padding: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  border-image: url("background-assets/popup.svg") 7;
+}
+
+.osd-window {
+  spacing: 1em;
+  padding: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  border-image: url("background-assets/popup.svg") 10;
+}
+.osd-window StIcon {
+  color: #dcdcdc;
+}
+.osd-window .level {
+  height: 5px;
+  color: rgba(116, 13, 0, 0.45);
 }
 
 /* ===================================================================
@@ -1408,6 +1415,16 @@ StScrollBar StButton#hhandle:focus {
 
 .magnifier-zoom-region.full-screen {
   border: none;
+}
+
+/* ===================================================================
+ * ! Tile Previews
+ * ===================================================================*/
+.tile-preview, .tile-hud {
+  background-color: rgba(30, 30, 30, 0.65);
+}
+.tile-preview.snap, .tile-hud.snap {
+  background-color: rgba(214, 73, 55, 0.8);
 }
 
 /* ===================================================================
@@ -1462,14 +1479,14 @@ StScrollBar StButton#hhandle:focus {
   padding-top: 15px;
   padding-left: 30px;
   font-size: 9pt;
-  color: #d64937;
+  color: rgba(255, 255, 255, 0.8);
 }
 .weather-current-databox-captions {
   text-align: right;
   padding: 0;
   padding-right: 5px;
   spacing: 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .weather-current-astronomy {
@@ -1478,10 +1495,6 @@ StScrollBar StButton#hhandle:focus {
 }
 
 /* Forecast */
-.forecast {
-  color: #d64937;
-}
-
 .weather-forecast-databox {
   padding: 14px 30px 0 0;
 }

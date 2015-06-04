@@ -15,7 +15,7 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r"
    sodipodi:docname="auto-tile-2.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -29,9 +29,9 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.328321"
-     inkscape:cx="-11.824616"
-     inkscape:cy="11.7026"
+     inkscape:zoom="28.291667"
+     inkscape:cx="1.6082475"
+     inkscape:cy="12"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -130,13 +130,23 @@
      id="layer1"
      transform="translate(0,-276)">
     <path
+       style="fill:#dcdcdc;fill-opacity:1;opacity:0"
+       d="m 1,278 0,13 4,0 0,7 3,0 0,-7 8,0 0,7 3,0 0,-7 4,0 0,-13 z m 1,1 9,0 0,5 -9,0 z m 11,0 9,0 0,5 -9,0 z m -11,6 9,0 0,5 -9,0 z m 11,0 9,0 0,5 -9,0 z m -7,7 1,0 0,2 -1,0 z m 11,0 1,0 0,2 -1,0 z m -11,3 1,0 0,2 -1,0 z m 11,0 1,0 0,2 -1,0 z"
+       id="rect3216"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    <path
        style="fill:#dcdcdc;fill-opacity:1"
-       d="M 6 16 L 6 18 L 7 18 L 7 16 L 6 16 z M 17 16 L 17 18 L 18 18 L 18 16 L 17 16 z M 6 19 L 6 21 L 7 21 L 7 19 L 6 19 z M 17 19 L 17 21 L 18 21 L 18 19 L 17 19 z "
-       transform="translate(0,276)"
-       id="rect3047" />
+       d="m 7,15 0,2 1,0 0,-2 z m 9,0 0,2 1,0 0,-2 z m -9,3 0,2 1,0 0,-2 z m 9,0 0,2 1,0 0,-2 z"
+       id="rect3047"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccc"
+       transform="translate(0,276)" />
     <path
        id="rect3263"
-       style="opacity:0.50000000000000000;fill:#dcdcdc;fill-opacity:1"
-       d="m 2,279 9,0 0,5 -9,0 z m 0,6 9,0 0,5 -9,0 z m 11,-6 9,0 0,5 -9,0 z m 0,6 9,0 0,5 -9,0 z" />
+       style="opacity:0.5;fill:#dcdcdc;fill-opacity:1"
+       d="m 4,280 7,0 0,4 -7,0 z m 0,5 7,0 0,4 -7,0 z m 9,-5 7,0 0,4 -7,0 z m 0,5 7,0 0,4 -7,0 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccscc" />
   </g>
 </svg>

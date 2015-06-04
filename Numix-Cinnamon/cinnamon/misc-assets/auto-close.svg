@@ -15,7 +15,7 @@
    height="24"
    id="svg11300"
    sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r"
    sodipodi:docname="auto-close.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0"
@@ -29,9 +29,9 @@
      borderopacity="1"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="20.005229"
-     inkscape:cx="-3.14604"
-     inkscape:cy="12"
+     inkscape:zoom="16.560976"
+     inkscape:cx="-1.3536729"
+     inkscape:cy="16.018358"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -46,7 +46,7 @@
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
      gridtolerance="10000"
-     inkscape:object-nodes="true"
+     inkscape:object-nodes="false"
      inkscape:snap-grids="true"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -62,11 +62,12 @@
      guidecolor="#ff0b00"
      guideopacity="1"
      guidehicolor="#001aff"
-     guidehiopacity="0.49803922">
+     guidehiopacity="0.49803922"
+     inkscape:snap-smooth-nodes="false">
     <inkscape:grid
        type="xygrid"
-       id="grid3123"
-       empspacing="4"
+       id="grid4347"
+       empspacing="5"
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true" />
@@ -130,9 +131,9 @@
      id="layer1"
      transform="translate(0,-276)">
     <path
-       style="fill:#dcdcdc;fill-opacity:1;stroke:none"
-       d="m 7,283 0,2 3,3 -3,3 0,2 2,0 3,-3 3,3 2,0 0,-2 -3,-3 3,-3 0,-2 -2,0 -3,3 -3,-3 z"
-       id="path4237"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#dcdcdc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="M 9.50251,284 8,284 l 0,1.50251 2.99749,2.9975 L 8,291.49749 8,293 9.50251,293 12.5,290.00251 15.49749,293 17,293 17,291.49749 14.00251,288.50001 17,285.50251 17,284 15.49749,284 12.5,286.99749 z"
+       id="path4167-4-4"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccc" />
   </g>

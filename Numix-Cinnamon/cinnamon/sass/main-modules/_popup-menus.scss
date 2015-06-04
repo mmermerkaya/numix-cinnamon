@@ -16,6 +16,17 @@
         -boxpointer-gap: 2px;
     }
 
+    &-content {
+        border-image: url("background-assets/popup-inside.svg") 9;
+        padding: .7em 0;
+        color: $text-primary;
+    }
+
+    &-icon,  StIcon {
+        icon-size: 16px;
+        color: $icon-primary;
+    }
+
     &-item {
         padding: .4em 1.3em;
         spacing: .8em;
@@ -23,27 +34,16 @@
         &:active {
             border-image: url("background-assets/hover.svg") 9;
             color: $text-active;
+
+            .popup-menu-icon, StIcon {
+                color: $icon-active;
+            }
         }
 
         &:insensitive {
             font-weight: normal;
             color: $text-disabled;
         }
-
-        &:active .popup-menu-icon {
-            color: $icon-active;
-        }
-    }
-
-    &-content {
-        border-image: url("background-assets/popup-inside.svg") 9;
-        padding: .7em 0;
-        color: $text-primary;
-    }
-
-    &-icon {
-        icon-size: 16px;
-        color: $icon-primary;
     }
 
     &-item-dot {/*!*/}
@@ -84,37 +84,26 @@
 }
 
 .popup-slider-menu-item {
-    border-image: url("widget-assets/slider.svg") 7;
-    min-width: 15em;
-    height: 16px;
     -slider-height: 2px;
-    -slider-background-color: transparent;
-    -slider-border-color: transparent;
+    -slider-background-color: rgba(0, 0, 0, 0);
+    -slider-border-color: rgba(0, 0, 0, 0);
     -slider-active-background-color: $accent;
-    -slider-active-border-color: transparent;
-    -slider-border-width: 0;
-    -slider-handle-radius: 5px;
+    -slider-active-border-color: rgba(0, 0, 0, 0);
+    -slider-border-width: 2px;
+    -slider-handle-radius: 4px;
     color: $icon-primary;
 
+    border-image: url("widget-assets/slider.svg") 9 6 8 8;
+    border: 0 solid transparent;
+    min-width: 15em;
+    height: 16px;
+
     .popup-menu-item:active & {
-        border-image: url("widget-assets/slider.svg") 7;
-        min-width: 15em;
-        height: 16px;
-        -slider-height: 2px;
-        -slider-background-color: transparent;
-        -slider-border-color: transparent;
-        -slider-active-background-color: $accent;
-        -slider-active-border-color: transparent;
-        -slider-border-width: 0;
         -slider-handle-radius: 5px;
         color: $text-active;
     }
 }
 
-.popup-combobox-item { spacing: 1em; }
+.popup-subtitle-menu-item {}
 
-.popup-device-menu-item { spacing: .5em; }
-
-.popup-inactive-menu-item,
-.popup-subtitle-menu-item,
-.popup-alternating-menu-item:alternate { font-weight: normal; }
+.popup-inactive-menu-item { color: $text-secondary; }

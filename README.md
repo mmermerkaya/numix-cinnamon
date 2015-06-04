@@ -1,4 +1,4 @@
-###A theme for cinnamon __2.4__
+###A theme for cinnamon _*2.6*_
 
 Original concept by [Numix Project](https://github.com/numixproject)
 
