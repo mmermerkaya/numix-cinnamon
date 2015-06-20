@@ -58,8 +58,8 @@
     font-size: 8pt;
     font-weight: bold;
     text-align: center;
-    width: 29px;
-    height: 29px;
+    width: 2.3em;
+    height: 2.7em;
 }
 
 .calendar-day-heading {
@@ -67,7 +67,7 @@
     color: $text-primary;
     padding-top: 9px;
     padding-bottom: 6px;
-    height: 15px;
+    height: 1.5em;
 }
 
 .calendar-day-top {
@@ -92,7 +92,6 @@
     border-image: url("misc-assets/calendar-today.svg") 6;
     color: $text-active;
     font-weight: bold;
-    font-size: 9pt;
 }
 
 .calendar-other-month-day {
@@ -105,8 +104,8 @@
     color: $text-secondary;
     font-size: 8pt;
     font-weight: normal;
-    height: 16px;
-    width: 12px;
+    height: 1.6em;
+    width: 1.2em;
     padding-top: 8px;
     padding-right: 6px;
 }
