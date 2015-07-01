@@ -1,6 +1,4 @@
-###A theme for cinnamon _*2.6*_
-
-Original concept by [Numix Project](https://github.com/numixproject)
+###A theme for cinnamon _2.6_
 
 ---
 
@@ -10,22 +8,42 @@ You can install this theme from within your theme settings.
 
 ---
 
-####Using sass
+####Developing
 
 This theme is written using the css preprocessor [sass](http://sass-lang.com/).
 
 In case you want to contribute code or report a bug, please report against the relevant sass file and **_not_** the css file!
 
+You should use the provided `gulpfile.js` for improved workflow and speed!
+
 ---
 
-In order to install/use sass:
+__In order to use gulp:__
 
-* [Install ruby](https://www.ruby-lang.org/en/documentation/installation/)
+* Install [nodejs](https://nodejs.org/) and [npm](https://www.npmjs.com/). *(__NOTE:__ If you want to contribute, make sure you run the nodejs version from the `.nvmrc` file!
+Use [Nvm!](https://github.com/creationix/nvm))*
 
-* [Install bundler.](http://bundler.io/#getting-started) (Used to ensure we run the same version of sass.)
+* Install [gulp](http://gulpjs.com/) globally:
+    ```sh
+    $ npm install --global gulp
+    ```
 
-* To install sass using bundler, run `bundle install` in the directory where the Gemfile is.
+* In the directory where the `gulpfile.js` file is, run:
+    ```sh
+    $ npm install
+    ```
 
-* Run the `parse-sass.sh` script.
+* In the same dir, run the following to use gulp:
+    ```sh
+    $ gulp
+    ```
 
-* The script will compile sass and run a sass watch. [For more info check the sass docs.](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass)
+---
+
+__Gulp will:__
+
+* Make a symlink of the `Ciliora-Tertia` folder inside the `~/.themes` directory. Even if you change the location of your working directory, running gulp will update the link! *(__NOTE:__ Make sure you don't have a folder named `Ciliora-Tertia` in this dir when you first run gulp.)*
+
+* Compile sass whenever certain files get changed, and...
+
+* Autoreload the theme. *(__NOTE:__ Under cinnamon, this will only work for changes in the (s)css files. When modifying images, you will have to restart cinnamon (`'alt+f2' -> 'r'`) in order to see a change.)*
