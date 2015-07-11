@@ -36,15 +36,15 @@ gulp.task('sass', function () {
 // Wait for sass to compile & reload theme
 gulp.task('reloadTheme', ['sass'], shell.task([
     'gsettings set org.cinnamon.theme name default',
-    'gsettings set org.cinnamon.theme name Ciliora-Tertia'
+    'gsettings set org.cinnamon.theme name Numix-Cinnamon'
 ]));
 
 
 // Make a symlink in the ~/.themes dir
 gulp.task('install', function () {
     fs.mkdir(process.env.HOME+'/.themes/', function(){})
-    fs.unlink(process.env.HOME+'/.themes/Ciliora-Tertia/', function(){})
-    fs.symlink(__dirname+'/../../Ciliora-Tertia/', process.env.HOME+'/.themes/Ciliora-Tertia', function(){})
+    fs.unlink(process.env.HOME+'/.themes/Numix-Cinnamon/', function(){})
+    fs.symlink(__dirname+'/../../Numix-Cinnamon/', process.env.HOME+'/.themes/Numix-Cinnamon', function(){})
 });
 
 
@@ -55,4 +55,4 @@ gulp.task('watch', function () {
 
 
 // Default task
-gulp.task('default', ['install', 'sass', 'watch']);
+gulp.task('default', ['install', 'reloadTheme', 'watch']);
