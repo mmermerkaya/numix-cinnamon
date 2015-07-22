@@ -8,11 +8,17 @@ You can install this theme from within your theme settings.
 
 ---
 
+####Contributing
+
+In case you want to contribute code, __don't edit the css file!__ Instead, edit the relevant sass files(s) and compile to css.
+
+This is a very opinionated project, so try to avoid suggesting visual changes. :grinning:
+
+---
+
 ####Developing
 
 This theme is written using the css preprocessor [sass](http://sass-lang.com/).
-
-In case you want to contribute code or report a bug, please report against the relevant sass file and **_not_** the css file!
 
 You should use the provided `gulpfile.js` for improved workflow and speed!
 
@@ -42,8 +48,14 @@ Use [Nvm!](https://github.com/creationix/nvm))*
 
 __Gulp will:__
 
-* Make a symlink of the `Numix-Cinnamon` folder inside the `~/.themes` directory. Even if you change the location of your working directory, running gulp will update the link! *(__NOTE:__ Make sure you don't have a folder named `Numix-Cinnamon` in this dir when you first run gulp.)*
+* __Make a symlink of the `Ciliora-Tertia` folder inside the `~/.themes` dir.__
 
-* Compile sass whenever certain files get changed, and...
+    * It will create a `~/.themes` dir if it doesn't exist already.
 
-* Autoreload the theme. *(__NOTE:__ Under cinnamon, this will only work for changes in the (s)css files. When modifying images, you will have to restart cinnamon (`'alt+f2' -> 'r'`) in order to see a change.)*
+    * Even if you change the location of your working directory, running `gulp` will update the link.
+
+    * __NOTE:__ Make sure you don't have a folder named `Ciliora-Tertia` in this dir when you first run gulp.
+
+* __Compile sass__ whenever certain files change. *(Open `gulpfile.js` to see what files/folders are being watched.)*
+
+* __Autoreload the theme.__ *(__NOTE:__ Under cinnamon, this will only work for changes in the (s)css files. When modifying images, you will have to restart cinnamon (`'alt+f2' -> 'r'`) in order to see a change.)*
