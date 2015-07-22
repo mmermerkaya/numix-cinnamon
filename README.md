@@ -16,7 +16,7 @@ This is a very opinionated project, so try to avoid suggesting visual changes. :
 
 ---
 
-####Developing
+####Development
 
 This theme is written using the css preprocessor [sass](http://sass-lang.com/).
 
