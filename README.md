@@ -48,13 +48,13 @@ Use [Nvm!](https://github.com/creationix/nvm))*
 
 __Gulp will:__
 
-* __Make a symlink of the `Ciliora-Tertia` folder inside the `~/.themes` dir.__
+* __Make a symlink of the `Numix-Cinnamon` folder inside the `~/.themes` dir.__
 
     * It will create a `~/.themes` dir if it doesn't exist already.
 
     * Even if you change the location of your working directory, running `gulp` will update the link.
 
-    * __NOTE:__ Make sure you don't have a folder named `Ciliora-Tertia` in this dir when you first run gulp.
+    * __NOTE:__ Make sure you don't have a folder named `Numix-Cinnamon` in this dir when you first run gulp.
 
 * __Compile sass__ whenever certain files change. *(Open `gulpfile.js` to see what files/folders are being watched.)*
 
