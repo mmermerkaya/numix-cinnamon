@@ -8,14 +8,6 @@ You can install this theme from within your theme settings.
 
 ---
 
-####Contributing
-
-In case you want to contribute code, __don't edit the css file!__ Instead, edit the relevant sass files(s) and compile to css.
-
-This is a very opinionated project, so try to avoid suggesting visual changes. :grinning:
-
----
-
 ####Development
 
 This theme is written using the css preprocessor [sass](http://sass-lang.com/).
