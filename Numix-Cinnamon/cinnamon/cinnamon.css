@@ -884,8 +884,7 @@ StScrollBar StButton#hhandle:focus {
    ! Run dialog
    ===================================================================*/
 .run-dialog > * {
-  border-image: url("background-assets/popup.svg") 7;
-  padding: 12px;
+  padding: 6px;
 }
 
 .run-dialog > .modal-dialog-button-box {
