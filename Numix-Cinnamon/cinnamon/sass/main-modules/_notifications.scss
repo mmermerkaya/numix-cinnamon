@@ -3,23 +3,17 @@
    ===================================================================*/
 
 #notification {
-    border-image: url("background-assets/popup.svg") 9;
-    padding: 16px;
-    spacing-rows: 10px;
+    border-image: url("background-assets/popup.svg") 7;
+    padding: 1.3em;
+    spacing-rows: .5em;
     spacing-columns: 10px;
-    margin-from-right-edge-of-screen: 6px;
-    opacity: 255px;
-    mouseover-opacity: 255px;
     width: 34em;
+    margin-from-right-edge-of-screen: 6px;
     font-weight: bold;
     font-size: 10pt;
     color: $text-primary;
 
-
-    &.multi-line-notification {
-        padding: 16px;
-        color: $text-primary;
-    }
+    &.multi-line-notification {/*!*/}
 
     &-scrollview {
         max-height: 100em;
@@ -38,20 +32,34 @@
         }
     }
 
+    CinnamonGenericContainer * {
+        font-weight: normal;
+        font-size: 9pt;
+        color: $accent;
+
+        &:first-child {
+            font-weight: bold;
+            font-size: 10pt;
+            padding: .2em 0;
+            color: $text-primary;
+        }
+
+        &:last-child {
+            padding: .3em 0;
+            color: $text-primary;
+        }
+    }
+
     &-body {
         font-weight: normal;
         font-size: 9pt;
-        spacing: 5px;
-        padding: 12px;
+        padding: .8em 0 .6em 0 ;
+        border-top: 1px #333;
     }
 
     &-actions {
         spacing: 10px;
     }
-}
-
-.notification-with-image {
-    min-height: 159px;
 }
 /* ===================================================================
    ! Notification applet
@@ -65,12 +73,12 @@
     }
 
     &:last-child {
-        padding-bottom: .5em;
+        padding-bottom: .8em;
     }
 }
 
 /* Notifs look inside the notification applet & other popups. */
 .popup-menu-content #notification {
     border-image: url("background-assets/dark-bg.svg") 7;
-    padding: 12px;
+    padding: .8em .8em .6em .8em;
 }
