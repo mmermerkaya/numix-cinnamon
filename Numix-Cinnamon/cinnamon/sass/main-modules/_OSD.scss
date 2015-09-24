@@ -7,6 +7,7 @@
     font-weight: bold;
     spacing: 1em;
     padding: 16px;
+    font-size: 12pt;
     color: $text-primary;
     border-image: url("background-assets/popup.svg") 7;
 }
@@ -16,11 +17,36 @@
     padding: 16px;
     color: $text-primary;
     border-image: url("background-assets/popup.svg") 10;
+    font-size: 20pt;
 
     StIcon { color: $icon-primary; }
 
     .level {
         height: 5px;
         color: $accent;
+    }
+}
+
+.workspace-osd {
+    border-image: url("background-assets/popup.svg") 7;
+    padding: 12px 17px;
+    color: $text-primary;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+/* ===================================================================
+   ! Looking Glass OSD
+   ===================================================================*/
+
+#LookingGlassDialog {
+    border-image: url("background-assets/popup.svg") 7;
+    padding: 14px;
+    font-size: 12pt;
+    color: $text-primary;
+
+    *:last-child  {
+        color: $text-secondary;
+        padding-top: .4em;
     }
 }
