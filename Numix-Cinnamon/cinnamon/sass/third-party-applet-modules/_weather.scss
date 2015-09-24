@@ -5,7 +5,6 @@
 /* Use to override the '.popup-menu-content' selector. */
 .weather-menu {
     .popup-menu-content {
-        padding-top: 6px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -44,7 +43,7 @@
 }
 
 .weather-current-iconbox {
-    padding: 1em;
+    padding: .2em 1em 1em 1em;
 }
 
 .weather-current-icon {
