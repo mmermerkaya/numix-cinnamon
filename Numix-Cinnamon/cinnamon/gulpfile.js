@@ -10,14 +10,16 @@ var gulp        = require('gulp'),
 
 // Error handler
 var onError = function (err) {
-    var lineNumber = (err.line) ? 'Line ' + err.line : '';
+    var errorLine   = (err.line) ? 'Line ' + err.line : '',
+        errorTitle  = (err.plugin) ? 'Error in plugin: [ ' + err.plugin + ' ]' : 'Error';
 
+    notify.logLevel(0);
     notify({
-        title: 'Task Failed  [ ' + err.plugin + ' ]',
-        message: lineNumber
+            title: errorTitle,
+            message: errorLine
     }).write(err);
     beep();
-    gutil.log(gutil.colors.red(err));
+    gutil.log(gutil.colors.red('\n'+errorTitle+'\n\n', err.message));
     this.emit('end');
 };
 
