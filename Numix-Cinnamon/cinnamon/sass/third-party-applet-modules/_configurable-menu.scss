@@ -50,3 +50,18 @@
     padding-left: 0;
     padding-top: 0;
 }
+
+
+/* Favorites box */
+.menu-favorites-box-stylized,
+.menu-favorites-box-classic {
+    padding: .3em;
+}
+
+
+/* Right-click menu box */
+.menu-main-box-stylized .menu-context-menu,
+.menu-main-box-claassic .menu-context-menu {
+    border-image: url("background-assets/dark-bg.svg") 7;
+    padding: .5em .1em;
+}
