@@ -1525,11 +1525,12 @@ StScrollBar StButton#hhandle:focus {
   padding-left: 30px;
 }
 
-.menu-search-entry-icon {
-  icon-size: 16px;
+/* Right-click menu */
+.menu-applications-inner-box StScrollView {
+  border-image: url("background-assets/dark-bg.svg") 7;
+  padding: 0.5em 0.1em;
 }
 
-/* Right-click menu */
 /* ===================================================================
    ! Hot corners icons
    ===================================================================*/

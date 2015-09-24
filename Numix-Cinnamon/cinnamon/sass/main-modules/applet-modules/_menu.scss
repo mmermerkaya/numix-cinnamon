@@ -111,9 +111,9 @@
     padding-left: 30px;
 }
 
-.menu-search-entry-icon {
-    icon-size: 16px;
-}
 
 /* Right-click menu */
-.menu-context-menu {}
+.menu-applications-inner-box StScrollView {
+    border-image: url("background-assets/dark-bg.svg") 7;
+    padding: .5em .1em;
+}
