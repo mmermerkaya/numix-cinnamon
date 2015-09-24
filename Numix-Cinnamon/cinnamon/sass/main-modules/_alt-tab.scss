@@ -3,17 +3,45 @@
    ===================================================================*/
 
 #altTabPopup {
-    padding: 8px;
-    spacing: 1px;
+    padding: 0;
+    spacing: 4px;
 }
 
-.alt-tab-app {}
-
+// Window name in coverflow & timeline modes
 .switcher-list {
+    border-image: url("expo-scale-assets/window-name.svg") 7;
+    color: $text-primary;
+    padding: 0 3px;
+    font-weight: bold;
+}
+
+// Thumbnails box in "icons & thumbnails" mode
+.switcher-list:last-child {
     border-image: url("background-assets/popup.svg") 7;
     color: $text-primary;
-    padding: 6px;
-    font-size: 12px;
+    padding: 0;
+    font-size: 10pt;
+    font-weight: bold;
+
+    .item-box {
+        padding: 10px;
+
+        &:selected {
+            border-image: none;
+            color: $text-primary;
+        }
+
+        StLabel { padding-top: .8em; }
+    }
+}
+
+// Icons box in classical alt-tab mode
+.switcher-list:first-child:last-child,
+.switcher-list:first-child {
+    border-image: url("background-assets/popup.svg") 7;
+    color: $text-primary;
+    padding: 2px;
+    font-size: 10pt;
     font-weight: bold;
 
     .item-box {
@@ -21,20 +49,19 @@
 
         &:selected {
             border-image: url("background-assets/hover.svg") 7;
-            color: $text-primary;
+            color: $text-active;
         }
+
+        StLabel { padding-top: .4em; }
     }
-
-    &-item-container { spacing: 0; }
-
-    .thumbnail { width: 256px; }
-
-    .separator {/*!*/}
 }
 
-.switcher-arrow,
-.switcher-arrow:highlighted,
-.switcher-preview-backdrop {
-    border-color: rgba(0, 0, 0, 0);
-    color: rgba(0, 0, 0, 0);
+.switcher-list-item-container {
+    spacing: 0;
 }
+
+.thumbnail {
+    width: 256px;
+}
+
+.alt-tab-app {}
