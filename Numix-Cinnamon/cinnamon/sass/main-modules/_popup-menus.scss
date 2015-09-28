@@ -16,7 +16,7 @@
         -boxpointer-gap: 2px;
     }
 
-    &-content {
+    .popup-menu-content {
         border-image: url("background-assets/popup-inside.svg") 9;
         padding: .7em 0;
         color: $text-primary;
