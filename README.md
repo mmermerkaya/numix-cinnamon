@@ -46,7 +46,7 @@ __Gulp will:__
 
     * Even if you change the location of your working directory, running `gulp` will update the link.
 
-    * __NOTE:__ Make sure you don't have a folder named `Numix-Cinnamon` in this dir when you first run gulp.
+    * __NOTE:__ If you already have a folder/file name `Numix-Cinnamon` in your `.themes` dir, it will be __deleted__.
 
 * __Compile sass__ whenever certain files change. *(Open `gulpfile.js` to see what files/folders are being watched.)*
 
