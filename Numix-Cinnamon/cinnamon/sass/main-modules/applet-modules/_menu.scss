@@ -33,10 +33,12 @@
 /* Categories */
 .menu-categories-box {
     padding: 10px 30px;
+    font-weight: bold;
 }
 
 .menu-category-button {
     padding: 7px;
+    color: $text-secondary;
 
     &-greyed {
         padding: 7px;
