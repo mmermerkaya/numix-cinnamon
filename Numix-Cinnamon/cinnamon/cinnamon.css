@@ -560,6 +560,7 @@ StScrollBar StButton#hhandle:focus {
 .desklet-with-borders-and-header {
   border-image: url("background-assets/desklet-body.svg") 9;
   color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
   padding: 5px;
 }
 
@@ -2806,48 +2807,53 @@ StBoxLayout.applet-box.desktop-capture StBin {
 
 .calc-displayWindow {
   border-image: url("widget-assets/entry-focused.svg") 7;
-  padding: 6px 6px 14px 6px;
+  padding: 8px;
+  padding-top: 4px;
+  padding-bottom: 2.4em;
 }
 
 .calc-displayWindow-rpn {
   border-image: url("widget-assets/entry-focused.svg") 7;
-  padding: 6px 6px 14px 6px;
+  padding: 8px;
+  padding-top: 4px;
 }
 
 .calc-displayText-primary {
-  font-size: 32px;
+  font-size: 32pt;
   color: rgba(255, 255, 255, 0.8);
   text-align: right;
 }
 
 .calc-displayText-secondary {
-  font-size: 9px;
-  color: rgba(255, 255, 255, 0.4);
+  font-size: 10pt;
+  color: #f0ad4e;
   text-align: right;
   padding-bottom: 8px;
 }
 
 .calc-displayText-operation {
-  font-size: 24px;
+  color: #f0ad4e;
 }
 
 .calc-displayText-status {
-  font-size: 8px;
+  font-size: 10pt;
   color: rgba(255, 255, 255, 0.4);
 }
 
 .calc-displayText-rpn {
   color: rgba(255, 255, 255, 0.8);
+  font-size: 10pt;
 }
 
 .calc-stackArea {
   height: 85px;
-  padding-top: 0;
+  padding-top: .8em;
+  padding-bottom: 0;
 }
 
 .calc-navigation-box {
   padding: 0 0 0 8px;
-  width: 22px;
+  width: 16px;
   border: none;
 }
 
@@ -2860,9 +2866,11 @@ StBoxLayout.applet-box.desktop-capture StBin {
   border: none;
 }
 
+.calc-navigation-button:hover .calc-navigation-icon {
+  color: #d64937;
+}
+
 .calc-button {
-  width: 38px;
-  height: 32px;
   background-color: transparent;
   background-gradient-direction: none;
   background-gradient-start: transparent;
@@ -2875,6 +2883,8 @@ StBoxLayout.applet-box.desktop-capture StBin {
   font-size: 9pt;
   border-image: url("button-assets/button-primary.svg") 10;
   color: rgba(255, 255, 255, 0.8);
+  width: 3.4em;
+  height: 2.8em;
 }
 
 .calc-button:grayed,
@@ -2931,7 +2941,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 }
 
 .calc-button-padding {
-  padding: 2px;
+  padding: .2em;
 }
 
 /* ===================================================================
