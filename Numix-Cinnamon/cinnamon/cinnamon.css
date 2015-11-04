@@ -1538,9 +1538,9 @@ StScrollBar StButton#hhandle:focus {
 }
 
 /* ===================================================================
-     ! Workspace Switcher
-     ===================================================================*/
-#workspaceSwitcher {
+   ! Number-mode Workspace Switcher applet
+   ===================================================================*/
+.workspace-switcher {
   spacing: 0;
 }
 
@@ -1580,11 +1580,55 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("panel-assets/panel-bottom-item-active-hover.svg") 4;
 }
 
-/* Items in the bottom panel are shifted by 1px down.
-     This fixes it for this applet specifically.
-     The global fix is in the panel module */
-.panel-bottom .workspace-button {
-  padding-top: 1px;
+/* ===================================================================
+   ! Visual-mode Workspace Switcher applet
+   ===================================================================*/
+.workspace-graph {
+  padding: 0 4px;
+  spacing: 3px;
+}
+
+/* Different images/paddings used in top & bottom panels. */
+.panel-top .workspace {
+  border-image: url("panel-assets/panel-top-item-hover.svg") 4;
+  padding: 0 0 3px 0;
+}
+
+.panel-top .workspace .windows {
+  -inactive-window-background: rgba(120, 120, 120, 0.9);
+  -inactive-window-border: rgba(0, 0, 0, 0.7);
+}
+
+.panel-top .workspace:active {
+  border-image: url("panel-assets/panel-top-item-active-hover.svg") 4;
+}
+
+.panel-top .workspace:active .windows {
+  -active-window-background: rgba(210, 210, 210, 0.9);
+  -active-window-border: rgba(0, 0, 0, 0.85);
+  -inactive-window-background: rgba(150, 150, 150, 0.9);
+  -inactive-window-border: rgba(0, 0, 0, 0.85);
+}
+
+.panel-bottom .workspace {
+  border-image: url("panel-assets/panel-bottom-item-hover.svg") 4;
+  padding: 1px 0 3px 0;
+}
+
+.panel-bottom .workspace .windows {
+  -inactive-window-background: rgba(120, 120, 120, 0.9);
+  -inactive-window-border: rgba(0, 0, 0, 0.7);
+}
+
+.panel-bottom .workspace:active {
+  border-image: url("panel-assets/panel-bottom-item-active-hover.svg") 4;
+}
+
+.panel-bottom .workspace:active .windows {
+  -active-window-background: rgba(210, 210, 210, 0.9);
+  -active-window-border: rgba(0, 0, 0, 0.85);
+  -inactive-window-background: rgba(150, 150, 150, 0.9);
+  -inactive-window-border: rgba(0, 0, 0, 0.85);
 }
 
 /* ===================================================================
