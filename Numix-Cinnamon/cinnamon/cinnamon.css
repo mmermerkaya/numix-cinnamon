@@ -203,6 +203,37 @@ StScrollBar StButton#hhandle:focus {
 }
 
 /* ===================================================================
+   ! Slider
+   ===================================================================*/
+.slider {
+  -slider-height: 2px;
+  -slider-background-color: transparent;
+  -slider-border-color: transparent;
+  -slider-active-background-color: #d64937;
+  -slider-active-border-color: transparent;
+  -slider-border-width: 2px;
+  -slider-handle-radius: 4px;
+  color: #dcdcdc;
+  border-image: url("widget-assets/slider.svg") 9 6 8 8;
+  border: 0 solid transparent;
+  min-width: 15em;
+  height: 16px;
+}
+
+.popup-menu-item:active .slider {
+  -slider-handle-radius: 5px;
+  color: white;
+}
+
+/* ===================================================================
+   ! Separator
+   ===================================================================*/
+.separator {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 1px;
+}
+
+/* ===================================================================
    ! Popup Menus
    ===================================================================*/
 .popup-menu {
