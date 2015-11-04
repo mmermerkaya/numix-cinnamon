@@ -64,7 +64,6 @@
     }
 }
 
-
 .popup-sub-menu {
     border-image: url("background-assets/submenu-bg.svg") 9;
     box-shadow: none;
@@ -119,6 +118,11 @@
     }
 }
 
-.popup-subtitle-menu-item {}
+.popup-inactive-menu-item {
+    color: $text-secondary;
+}
 
-.popup-inactive-menu-item { color: $text-secondary; }
+/* used mainly for the notif-applet */
+.popup-menu-item .popup-subtitle-menu-item {
+    font-weight: bold;
+}

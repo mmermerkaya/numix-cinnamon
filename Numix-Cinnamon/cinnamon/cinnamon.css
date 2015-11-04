@@ -324,6 +324,11 @@ StScrollBar StButton#hhandle:focus {
   color: rgba(255, 255, 255, 0.4);
 }
 
+/* used mainly for the notif-applet */
+.popup-menu-item .popup-subtitle-menu-item {
+  font-weight: bold;
+}
+
 /* ===================================================================
    ! Panel
    ===================================================================*/
