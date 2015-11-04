@@ -833,20 +833,15 @@ StScrollBar StButton#hhandle:focus {
 
 /* ===================================================================
    ! Alt Tab
+
+   * The styles are namespaced under the "#altTabPopup" selector
    ===================================================================*/
 #altTabPopup {
   padding: 0;
   spacing: 4px;
 }
 
-.switcher-list {
-  border-image: url("expo-scale-assets/window-name.svg") 7;
-  color: rgba(255, 255, 255, 0.8);
-  padding: 0 3px;
-  font-weight: bold;
-}
-
-.switcher-list:last-child {
+#altTabPopup .switcher-list:last-child {
   border-image: url("background-assets/popup.svg") 7;
   color: rgba(255, 255, 255, 0.8);
   padding: 0;
@@ -854,21 +849,21 @@ StScrollBar StButton#hhandle:focus {
   font-weight: bold;
 }
 
-.switcher-list:last-child .item-box {
+#altTabPopup .switcher-list:last-child .item-box {
   padding: 10px;
 }
 
-.switcher-list:last-child .item-box:selected {
+#altTabPopup .switcher-list:last-child .item-box:selected {
   border-image: none;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.switcher-list:last-child .item-box StLabel {
+#altTabPopup .switcher-list:last-child .item-box StLabel {
   padding-top: .8em;
 }
 
-.switcher-list:first-child:last-child,
-.switcher-list:first-child {
+#altTabPopup .switcher-list:first-child:last-child,
+#altTabPopup .switcher-list:first-child {
   border-image: url("background-assets/popup.svg") 7;
   color: rgba(255, 255, 255, 0.8);
   padding: 2px;
@@ -876,27 +871,27 @@ StScrollBar StButton#hhandle:focus {
   font-weight: bold;
 }
 
-.switcher-list:first-child:last-child .item-box,
-.switcher-list:first-child .item-box {
+#altTabPopup .switcher-list:first-child:last-child .item-box,
+#altTabPopup .switcher-list:first-child .item-box {
   padding: 10px;
 }
 
-.switcher-list:first-child:last-child .item-box:selected,
-.switcher-list:first-child .item-box:selected {
+#altTabPopup .switcher-list:first-child:last-child .item-box:selected,
+#altTabPopup .switcher-list:first-child .item-box:selected {
   border-image: url("background-assets/hover.svg") 7;
   color: white;
 }
 
-.switcher-list:first-child:last-child .item-box StLabel,
-.switcher-list:first-child .item-box StLabel {
+#altTabPopup .switcher-list:first-child:last-child .item-box StLabel,
+#altTabPopup .switcher-list:first-child .item-box StLabel {
   padding-top: .4em;
 }
 
-.switcher-list-item-container {
+#altTabPopup .switcher-list-item-container {
   spacing: 0;
 }
 
-.thumbnail {
+#altTabPopup .thumbnail {
   width: 256px;
 }
 
@@ -1418,6 +1413,23 @@ StScrollBar StButton#hhandle:focus {
 
 .panel-bottom .window-list-item-demands-attention:hover {
   border-image: url("panel-assets/panel-bottom-item-attention-hover.svg") 4;
+}
+
+/* This styles the window-list preview and window name
+   in "cover" and "timeline" alt-tab modes */
+.switcher-list {
+  border-image: url("background-assets/tooltip.svg") 7;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0 3px;
+  font-weight: bold;
+}
+
+.switcher-list > StBoxLayout {
+  spacing: .4em;
+}
+
+.switcher-list > StBoxLayout > StBoxLayout {
+  spacing: .4em;
 }
 
 /* ===================================================================
