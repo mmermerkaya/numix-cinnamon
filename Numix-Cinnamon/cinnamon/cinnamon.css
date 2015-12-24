@@ -92,9 +92,7 @@ StScrollBar StButton#hhandle:focus {
   color: rgba(255, 255, 255, 0.4);
 }
 
-.popup-menu StEntry:focus,
-.popup-menu StEntry:active,
-.popup-menu StEntry:pressed,
+.popup-menu StEntry:focus, .popup-menu StEntry:active, .popup-menu StEntry:pressed,
 .modal-dialog StEntry:focus,
 .modal-dialog StEntry:active,
 .modal-dialog StEntry:pressed,
@@ -269,7 +267,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .popup-menu-item {
-  padding: 0.4em 1.3em;
+  padding: .4em 1.3em;
   spacing: .8em;
 }
 
@@ -326,7 +324,7 @@ StScrollBar StButton#hhandle:focus {
 
 .popup-combo-menu {
   border-image: url("background-assets/popup.svg") 9;
-  padding: 0.8em 0.2em;
+  padding: .8em .2em;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -435,7 +433,7 @@ StScrollBar StButton#hhandle:focus {
   padding: 0 2px;
   font-weight: bold;
   color: #dcdcdc;
-  height: 25px;
+  height: inherit;
 }
 
 .panel-top .panel-status-button:hover {
@@ -529,8 +527,7 @@ StScrollBar StButton#hhandle:focus {
   color: white;
 }
 
-.expo-workspaces-name-entry:focus,
-.expo-workspaces-name-entry#selected:focus {
+.expo-workspaces-name-entry:focus, .expo-workspaces-name-entry#selected:focus {
   border-image: url("expo-scale-assets/workspace-name-pressed.svg") 12;
   color: #d64937;
   selected-color: rgba(255, 255, 255, 0.8);
@@ -697,7 +694,7 @@ StScrollBar StButton#hhandle:focus {
 #notification-body {
   font-weight: normal;
   font-size: 9pt;
-  padding: 0.8em 0 0.6em 0;
+  padding: .8em 0 .6em 0;
   border-top: 1px rgba(0, 0, 0, 0.05);
 }
 
@@ -721,9 +718,7 @@ StScrollBar StButton#hhandle:focus {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.notification-button:grayed,
-.notification-button:disabled,
-.notification-button:insensitive,
+.notification-button:grayed, .notification-button:disabled, .notification-button:insensitive,
 .notification-icon-button:grayed,
 .notification-icon-button:disabled,
 .notification-icon-button:insensitive {
@@ -731,9 +726,7 @@ StScrollBar StButton#hhandle:focus {
   color: rgba(255, 255, 255, 0.1);
 }
 
-.notification-button:grayed StIcon,
-.notification-button:disabled StIcon,
-.notification-button:insensitive StIcon,
+.notification-button:grayed StIcon, .notification-button:disabled StIcon, .notification-button:insensitive StIcon,
 .notification-icon-button:grayed StIcon,
 .notification-icon-button:disabled StIcon,
 .notification-icon-button:insensitive StIcon {
@@ -752,8 +745,7 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("button-assets/button-primary-hover.svg") 10;
 }
 
-.notification-button:active,
-.notification-button:pressed,
+.notification-button:active, .notification-button:pressed,
 .notification-icon-button:active,
 .notification-icon-button:pressed {
   border-image: url("button-assets/button-primary-pressed.svg") 10;
@@ -770,8 +762,7 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("button-assets/button-orange-hover.svg") 10;
 }
 
-.notification-button:focus:active,
-.notification-button:focus:pressed,
+.notification-button:focus:active, .notification-button:focus:pressed,
 .notification-icon-button:focus:active,
 .notification-icon-button:focus:pressed {
   border-image: url("button-assets/button-orange-pressed.svg") 10;
@@ -803,7 +794,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .notification-button {
-  padding: 0.9em 2.2em 0.9em 2.2em;
+  padding: .9em 2.2em .9em 2.2em;
   -st-natural-width: 8em;
 }
 
@@ -815,7 +806,7 @@ StScrollBar StButton#hhandle:focus {
    ! Notification applet
    ===================================================================*/
 .notification-applet-padding {
-  padding: 0.6em 0.8em;
+  padding: .6em .8em;
 }
 
 .notification-applet-padding:first-child {
@@ -829,7 +820,7 @@ StScrollBar StButton#hhandle:focus {
 /* Notifs look inside the notification applet & other popups. */
 .popup-menu-content #notification {
   border-image: url("background-assets/dark-bg-marked-orange.svg") 7;
-  padding: 0.8em 0.8em 0.6em 1em;
+  padding: .8em .8em .6em 1em;
 }
 
 .popup-menu-content #notification.multi-line-notification {
@@ -955,16 +946,12 @@ StScrollBar StButton#hhandle:focus {
   padding: .9em;
 }
 
-.modal-dialog-button:grayed,
-.modal-dialog-button:disabled,
-.modal-dialog-button:insensitive {
+.modal-dialog-button:grayed, .modal-dialog-button:disabled, .modal-dialog-button:insensitive {
   border-image: url("button-assets/button-insensitive.svg") 10;
   color: rgba(255, 255, 255, 0.1);
 }
 
-.modal-dialog-button:grayed StIcon,
-.modal-dialog-button:disabled StIcon,
-.modal-dialog-button:insensitive StIcon {
+.modal-dialog-button:grayed StIcon, .modal-dialog-button:disabled StIcon, .modal-dialog-button:insensitive StIcon {
   color: #444;
 }
 
@@ -978,8 +965,7 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("button-assets/button-primary-hover.svg") 10;
 }
 
-.modal-dialog-button:active,
-.modal-dialog-button:pressed {
+.modal-dialog-button:active, .modal-dialog-button:pressed {
   border-image: url("button-assets/button-primary-pressed.svg") 10;
 }
 
@@ -992,8 +978,7 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("button-assets/button-orange-hover.svg") 10;
 }
 
-.modal-dialog-button:focus:active,
-.modal-dialog-button:focus:pressed {
+.modal-dialog-button:focus:active, .modal-dialog-button:focus:pressed {
   border-image: url("button-assets/button-orange-pressed.svg") 10;
 }
 
@@ -1144,16 +1129,12 @@ StScrollBar StButton#hhandle:focus {
   font-size: 12pt;
 }
 
-.keyboard-key:grayed,
-.keyboard-key:disabled,
-.keyboard-key:insensitive {
+.keyboard-key:grayed, .keyboard-key:disabled, .keyboard-key:insensitive {
   border-image: url("button-assets/button-insensitive.svg") 10;
   color: rgba(255, 255, 255, 0.1);
 }
 
-.keyboard-key:grayed StIcon,
-.keyboard-key:disabled StIcon,
-.keyboard-key:insensitive StIcon {
+.keyboard-key:grayed StIcon, .keyboard-key:disabled StIcon, .keyboard-key:insensitive StIcon {
   color: #444;
 }
 
@@ -1167,8 +1148,7 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("button-assets/button-primary-hover.svg") 10;
 }
 
-.keyboard-key:active,
-.keyboard-key:pressed {
+.keyboard-key:active, .keyboard-key:pressed {
   border-image: url("button-assets/button-primary-pressed.svg") 10;
 }
 
@@ -1181,8 +1161,7 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("button-assets/button-orange-hover.svg") 10;
 }
 
-.keyboard-key:focus:active,
-.keyboard-key:focus:pressed {
+.keyboard-key:focus:active, .keyboard-key:focus:pressed {
   border-image: url("button-assets/button-orange-pressed.svg") 10;
 }
 
@@ -1257,7 +1236,7 @@ StScrollBar StButton#hhandle:focus {
    ! Calendar
    ===================================================================*/
 .datemenu-date-label {
-  padding: 0.7em 0 0.4em 0;
+  padding: .7em 0 .4em 0;
   font-size: 10pt;
   font-weight: bold;
   text-align: center;
@@ -1265,7 +1244,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .calendar {
-  padding: 0.8em 1.3em 0.6em 1.3em;
+  padding: .8em 1.3em .6em 1.3em;
   spacing-rows: 2px;
   spacing-columns: 2px;
 }
@@ -1325,7 +1304,7 @@ StScrollBar StButton#hhandle:focus {
 
 .calendar-day-heading {
   color: rgba(255, 255, 255, 0.8);
-  padding: 1.2em 0 0.6em 0;
+  padding: 1.2em 0 .6em 0;
   height: 1.5em;
 }
 
@@ -1461,7 +1440,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .sound-player > StBoxLayout:first-child {
-  padding: 0.4em 1.3em 0.6em 1.3em;
+  padding: .4em 1.3em .6em 1.3em;
   spacing: .4em;
   font-weight: bold;
   font-size: 10pt;
@@ -1502,16 +1481,12 @@ StScrollBar StButton#hhandle:focus {
   padding: .9em;
 }
 
-.sound-player-overlay StButton:grayed,
-.sound-player-overlay StButton:disabled,
-.sound-player-overlay StButton:insensitive {
+.sound-player-overlay StButton:grayed, .sound-player-overlay StButton:disabled, .sound-player-overlay StButton:insensitive {
   border-image: url("button-assets/button-insensitive.svg") 10;
   color: rgba(255, 255, 255, 0.1);
 }
 
-.sound-player-overlay StButton:grayed StIcon,
-.sound-player-overlay StButton:disabled StIcon,
-.sound-player-overlay StButton:insensitive StIcon {
+.sound-player-overlay StButton:grayed StIcon, .sound-player-overlay StButton:disabled StIcon, .sound-player-overlay StButton:insensitive StIcon {
   color: #444;
 }
 
@@ -1525,8 +1500,7 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("button-assets/button-primary-hover.svg") 10;
 }
 
-.sound-player-overlay StButton:active,
-.sound-player-overlay StButton:pressed {
+.sound-player-overlay StButton:active, .sound-player-overlay StButton:pressed {
   border-image: url("button-assets/button-primary-pressed.svg") 10;
 }
 
@@ -1539,8 +1513,7 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("button-assets/button-orange-hover.svg") 10;
 }
 
-.sound-player-overlay StButton:focus:active,
-.sound-player-overlay StButton:focus:pressed {
+.sound-player-overlay StButton:focus:active, .sound-player-overlay StButton:focus:pressed {
   border-image: url("button-assets/button-orange-pressed.svg") 10;
 }
 
@@ -1691,7 +1664,7 @@ StScrollBar StButton#hhandle:focus {
    ! User Applet
    ===================================================================*/
 .user-box {
-  padding: 0.8em 1.3em;
+  padding: .8em 1.3em;
   spacing: 10px;
 }
 
@@ -1828,7 +1801,7 @@ StScrollBar StButton#hhandle:focus {
 /* Right-click menu */
 .menu-applications-inner-box StScrollView {
   border-image: url("background-assets/dark-bg.svg") 7;
-  padding: 0.5em 0.1em;
+  padding: .5em .1em;
 }
 
 /* ===================================================================
@@ -1962,8 +1935,7 @@ StScrollBar StButton#hhandle:focus {
   font-size: 14pt;
 }
 
-.weather-current-location-link:selected,
-.weather-current-location-link:hover {
+.weather-current-location-link:selected, .weather-current-location-link:hover {
   background-gradient-direction: vertical;
   background-gradient-start: rgba(255, 255, 255, 0);
   background-gradient-end: rgba(255, 255, 255, 0);
@@ -1982,7 +1954,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .weather-current-iconbox {
-  padding: 0.2em 1em 1em 1em;
+  padding: .2em 1em 1em 1em;
 }
 
 .weather-current-icon {
@@ -2142,7 +2114,7 @@ StScrollBar StButton#hhandle:focus {
 .menu-main-box-stylized .menu-context-menu,
 .menu-main-box-claassic .menu-context-menu {
   border-image: url("background-assets/dark-bg.svg") 7;
-  padding: 0.5em 0.1em;
+  padding: .5em .1em;
 }
 
 /* ===================================================================
@@ -2213,8 +2185,7 @@ StScrollBar StButton#hhandle:focus {
   color: white;
 }
 
-.slingshot .button:hover:checked,
-.slingshot .button:hover:active {
+.slingshot .button:hover:checked, .slingshot .button:hover:active {
   background-gradient-direction: none;
   background-color: transparent;
 }
@@ -2268,8 +2239,7 @@ StScrollBar StButton#hhandle:focus {
   color: white;
 }
 
-.slingshot .sidebar .button:active,
-.slingshot .sidebar .button:hover:active {
+.slingshot .sidebar .button:active, .slingshot .sidebar .button:hover:active {
   background-color: transparent;
   border-color: transparent;
   box-shadow: inset 0 0 0 transparent;
@@ -2354,8 +2324,7 @@ StScrollBar StButton#hhandle:focus {
   border-image: url("button-assets//linked-button-right-hover.svg") 9;
 }
 
-.slingshot .linked .button:last-child:active,
-.slingshot .linked .button:last-child:active:hover {
+.slingshot .linked .button:last-child:active, .slingshot .linked .button:last-child:active:hover {
   border-image: url("button-assets//linked-button-right-pressed.svg") 9;
   border-right-width: 0;
 }
@@ -2399,7 +2368,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .xCenter-menu .popup-menu-item {
-  padding: 0.4em 1.3em;
+  padding: .4em 1.3em;
 }
 
 .xCenter-menu .popup-menu-item:hover {
@@ -2803,9 +2772,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   padding: 6px;
 }
 
-.sticky-text-box:focus,
-.sticky-text-box:active,
-.sticky-text-box:pressed {
+.sticky-text-box:focus, .sticky-text-box:active, .sticky-text-box:pressed {
   border-image: url("widget-assets/entry-focused.svg") 6;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.8);
@@ -2999,16 +2966,12 @@ StBoxLayout.applet-box.desktop-capture StBin {
   height: 2.8em;
 }
 
-.calc-button:grayed,
-.calc-button:disabled,
-.calc-button:insensitive {
+.calc-button:grayed, .calc-button:disabled, .calc-button:insensitive {
   border-image: url("button-assets/button-insensitive.svg") 10;
   color: rgba(255, 255, 255, 0.1);
 }
 
-.calc-button:grayed StIcon,
-.calc-button:disabled StIcon,
-.calc-button:insensitive StIcon {
+.calc-button:grayed StIcon, .calc-button:disabled StIcon, .calc-button:insensitive StIcon {
   color: #444;
 }
 
@@ -3022,8 +2985,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   border-image: url("button-assets/button-primary-hover.svg") 10;
 }
 
-.calc-button:active,
-.calc-button:pressed {
+.calc-button:active, .calc-button:pressed {
   border-image: url("button-assets/button-primary-pressed.svg") 10;
 }
 
@@ -3036,8 +2998,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   border-image: url("button-assets/button-orange-hover.svg") 10;
 }
 
-.calc-button:focus:active,
-.calc-button:focus:pressed {
+.calc-button:focus:active, .calc-button:focus:pressed {
   border-image: url("button-assets/button-orange-pressed.svg") 10;
 }
 
@@ -3088,8 +3049,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
   border-image: url("misc-assets/calendar-work-day.svg") 7;
 }
 
-.table-element:hover,
-.table-element:activate {
+.table-element:hover, .table-element:activate {
   border-image: url("misc-assets/calendar-today.svg") 7;
 }
 
