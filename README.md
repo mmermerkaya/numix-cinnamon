@@ -1,4 +1,4 @@
-### Numix-Cinnamon for cinnamon
+### Numix for cinnamon
 
 ---
 
