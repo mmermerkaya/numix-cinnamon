@@ -1,0 +1,56 @@
+/* ======================================
+ * ! Alt Tab
+ * ====================================== */
+/*
+ * This styles the normal alt-tab popup
+ *
+ * See also window-list module for a similar selector
+ */
+#uiGroup > #altTabPopup {
+    padding: 0;
+    spacing: 4px;
+
+    .switcher-list {
+        border-image: url("img/containers/tooltip.svg") 7;
+        color: $text-primary;
+        padding: 2px;
+        font-size: $font-size-lg;
+        font-weight: bold;
+
+        .item-box {
+            padding: 10px;
+
+            &:selected {
+                border-image: url("img/containers/hover.svg") 7;
+                color: $text-active;
+            }
+
+            StLabel { padding-top: .4em; }
+        }
+    }
+}
+
+/*
+ * The window list thumbnail shares a class
+ * with the alt-tab switcher, but it is
+ * the direct child of the top container.
+ *
+ * See also alt-tab module for a similar selector
+ */
+#uiGroup > .switcher-list {
+    border-image: url("img/containers/popup-outside.svg") 7;
+    padding: 6px;
+    color: $text-primary;
+    font-size: $font-size-base;
+    font-weight: bold;
+
+    > StBoxLayout {
+        spacing: .4em;
+
+        > StBoxLayout {
+            spacing: .4em;
+        }
+    }
+}
+
+lt-tab-app {}
