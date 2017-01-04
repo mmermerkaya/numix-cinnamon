@@ -30,8 +30,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="11.710379"
-     inkscape:cx="4.336169"
-     inkscape:cy="20.333541"
+     inkscape:cx="-8.8145582"
+     inkscape:cy="20.162752"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -103,7 +103,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -153,7 +153,7 @@
        r="17.5"
        cy="279.5"
        cx="20.5"
-       style="display:inline;opacity:0.55;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
+       style="display:inline;opacity:0.24;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
        id="circle4210" />
     <circle
        id="path5896-9"
