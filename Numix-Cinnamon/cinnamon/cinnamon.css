@@ -295,7 +295,7 @@ StScrollBar StButton#hhandle:active {
 
 .popup-menu-content {
   border-image: url("img/containers/popup.svg") 10;
-  padding: 1px;
+  padding: .5em 1px;
   color: #eee;
   max-height: 70em;
 }
@@ -2042,6 +2042,7 @@ StScrollBar StButton#hhandle:active {
   padding-right: 30px;
   padding-left: 30px;
   text-align: right;
+  height: 1.2em;
 }
 
 .menu-selected-app-title {
