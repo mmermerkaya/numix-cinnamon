@@ -949,7 +949,7 @@ StScrollBar StButton#hhandle:active {
  * See also alt-tab module for a similar selector
  */
 #uiGroup > .switcher-list {
-  border-image: url("img/containers/popup-outside.svg") 7;
+  border-image: url("img/containers/popup.svg") 7;
   padding: 6px;
   color: #eee;
   font-size: 12px;
@@ -3122,7 +3122,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 
 /* Instructions dialog */
 .instructions-container {
-  border-image: url("img/containers/popup-outside.svg") 7;
+  border-image: url("img/containers/popup.svg") 7;
 }
 
 .instructions-label-header {
