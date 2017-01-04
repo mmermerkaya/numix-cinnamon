@@ -1,3 +1,4 @@
+
 /* ======================================
  * ! Alt Tab
  * ====================================== */
@@ -11,9 +12,9 @@
     spacing: 4px;
 
     .switcher-list {
-        border-image: url("img/containers/tooltip.svg") 7;
+        border-image: url("img/containers/popup.svg") 7;
         color: $text-primary;
-        padding: 2px;
+        padding: 1px;
         font-size: $font-size-lg;
         font-weight: bold;
 
@@ -31,26 +32,16 @@
 }
 
 /*
- * The window list thumbnail shares a class
- * with the alt-tab switcher, but it is
- * the direct child of the top container.
- *
- * See also alt-tab module for a similar selector
+ * This styles the window name box when alt-tab is
+ * in 'coverflow' or 'timeline' modes
  */
-#uiGroup > .switcher-list {
+#uiGroup > StWidget > .switcher-list {
     border-image: url("img/containers/popup.svg") 7;
-    padding: 6px;
     color: $text-primary;
-    font-size: $font-size-base;
-    font-weight: bold;
-
-    > StBoxLayout {
-        spacing: .4em;
-
-        > StBoxLayout {
-            spacing: .4em;
-        }
-    }
 }
 
-lt-tab-app {}
+.switcher-list-item-container { spacing: 0; }
+
+.thumbnail { width: 256px; }
+
+.alt-tab-app {}

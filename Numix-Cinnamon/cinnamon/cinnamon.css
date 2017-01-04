@@ -921,9 +921,9 @@ StScrollBar StButton#hhandle:active {
 }
 
 #uiGroup > #altTabPopup .switcher-list {
-  border-image: url("img/containers/tooltip.svg") 7;
+  border-image: url("img/containers/popup.svg") 7;
   color: #eee;
-  padding: 2px;
+  padding: 1px;
   font-size: 14px;
   font-weight: bold;
 }
@@ -942,26 +942,20 @@ StScrollBar StButton#hhandle:active {
 }
 
 /*
- * The window list thumbnail shares a class
- * with the alt-tab switcher, but it is
- * the direct child of the top container.
- *
- * See also alt-tab module for a similar selector
+ * This styles the window name box when alt-tab is
+ * in 'coverflow' or 'timeline' modes
  */
-#uiGroup > .switcher-list {
+#uiGroup > StWidget > .switcher-list {
   border-image: url("img/containers/popup.svg") 7;
-  padding: 6px;
   color: #eee;
-  font-size: 12px;
-  font-weight: bold;
 }
 
-#uiGroup > .switcher-list > StBoxLayout {
-  spacing: .4em;
+.switcher-list-item-container {
+  spacing: 0;
 }
 
-#uiGroup > .switcher-list > StBoxLayout > StBoxLayout {
-  spacing: .4em;
+.thumbnail {
+  width: 256px;
 }
 
 /* ======================================
