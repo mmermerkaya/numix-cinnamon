@@ -47,3 +47,8 @@ recompile sass and reload the theme when a change occurs.
 > **NOTE:**  
 
 > The script creates a link to the `Numix-Cinnamon` dir in `~/.themes`.
+
+---
+
+<img src="http://pre01.deviantart.net/ea94/th/pre/f/2017/005/4/6/numix_cinnamon_by_zagortenay333-d6dft70.png" id="preview">
+<sup>**Preview info:** [Wallpaper](http://www.deviantart.com/users/outgoing?https://numixproject.org/), [Icons](https://github.com/moka-project/moka-icon-theme)</sup>
