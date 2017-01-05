@@ -22,12 +22,12 @@
     padding-top: 6px;
 
     &-element {
-        border-image: url("img/containers/light-bg.svg") 7;
+        border-image: url("img/misc/calendar-work-day.svg") 7;
     }
 
     &-element:hover,
     &-element:activate {
-        border-image: url("img/containers/hover.svg") 7;
+        border-image: url("img/misc/calendar-today.svg") 7;
     }
 }
 

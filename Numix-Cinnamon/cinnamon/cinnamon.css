@@ -1450,7 +1450,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .calendar-today {
-  border-image: url("img/containers/hover.svg") 6;
+  border-image: url("img/misc/calendar-today.svg") 6;
   color: #fff;
   font-weight: bold;
 }
@@ -3607,11 +3607,11 @@ use to override window-list-item-box */
 }
 
 .table-element {
-  border-image: url("img/containers/light-bg.svg") 7;
+  border-image: url("img/misc/calendar-work-day.svg") 7;
 }
 
 .table-element:hover, .table-element:activate {
-  border-image: url("img/containers/hover.svg") 7;
+  border-image: url("img/misc/calendar-today.svg") 7;
 }
 
 .top-box {
