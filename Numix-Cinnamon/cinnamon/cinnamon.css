@@ -1366,7 +1366,7 @@ StScrollBar StButton#hhandle:active {
 
 .datemenu-date-label {
   padding: .7em 1.3em .4em 1.3em;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   text-align: center;
   color: #eee;
