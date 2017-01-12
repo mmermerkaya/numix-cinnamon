@@ -36,17 +36,18 @@
 
 .menu-category-button {
     padding: .6em;
-    color: $text-secondary;
+    font-weight: bold;
 
     &-greyed {
         padding: .6em;
         color: $text-disabled;
-        font-style: normal;
+        font-weight: bold;
     }
 
     &-selected {
         padding: .6em;
         border-image: url("img/containers/hover.svg") 7;
+        font-weight: bold;
         color: $text-active;
     }
 
