@@ -15,7 +15,7 @@
     width: 34em;
     margin-from-right-edge-of-screen: 6px;
     font-weight: bold;
-    font-size: $font-size-lg;
+    font-size: $font-size-base;
     color: $text-primary;
 
     CinnamonGenericContainer * {
@@ -25,7 +25,7 @@
 
         &:first-child {
             font-weight: bold;
-            font-size: $font-size-lg;
+            font-size: $font-size-base;
             padding: .3em 0;
             color: $text-primary;
         }
