@@ -106,13 +106,15 @@
         StIcon { color: $color-disabled; }
     }
 }
+
+
 // ======================================
 //  Standard button widths
 // ======================================
 @mixin btn-width($btn-width) {
     @if $btn-width == "small" { padding: 1em; }
 
-    @if $btn-width == "wide" { padding: 1em 2em; }
+    @if $btn-width == "wide" { padding: 1em 1.5em; }
 }
 
 
