@@ -99,22 +99,22 @@
     -slider-handle-radius: 4px;
 }
 
-.popup-inactive-menu-item {
-    color: $text-secondary;
-}
-
-/* Right click in scale */
+/* Right click in scale (show all windows) */
 .popup-combo-menu {
     border-image: url("img/containers/popup.svg") 9;
     padding: .8em .3em;
     color: $text-primary;
 }
 
-/* used mainly for the notif-applet */
-.popup-menu-item .popup-subtitle-menu-item {
+.popup-inactive-menu-item {
+    color: $text-secondary;
+}
+
+.popup-subtitle-menu-item {
     font-weight: bold;
 }
 
+/* used in power applet */
 .popup-device-menu-item {
     spacing: .8em;
 
