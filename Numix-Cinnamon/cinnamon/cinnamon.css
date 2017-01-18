@@ -3244,9 +3244,13 @@ use to override window-list-item-box */
 /* NumLabel */
 .window-icon-list-numlabel {
   z-index: 99;
-  font-weight: bold;
-  color: #ef6c00;
+  color: #f0544c;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  width: 14px;
+  height: 14px;
+  padding: 1px 0 0 1px;
   font-size: 14px;
+  font-weight: bold;
 }
 
 /* Non grouped container */

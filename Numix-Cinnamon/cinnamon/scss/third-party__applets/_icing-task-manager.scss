@@ -90,9 +90,12 @@ use to override window-list-item-box */
 /* NumLabel */
 .window-icon-list-numlabel {
     z-index: 99;
-    font-weight: bold;
-    color: $text-warning;
+    color: $text-link;
+    text-shadow: 1px 1px 1px rgba(#000, .8);
+    @include size($font-size-lg);
+    padding: 1px 0 0 1px;
     font-size: $font-size-lg;
+    font-weight: bold;
 }
 
 /* Non grouped container */
