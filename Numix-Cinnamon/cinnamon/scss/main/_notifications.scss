@@ -7,7 +7,7 @@
 #notification {
     border-image: url("img/containers/popup.svg") 7;
     padding: 1.3em;
-    spacing-rows: .2em;
+    spacing-rows: .3em;
     spacing-columns: 10px;
     width: 34em;
     margin-from-right-edge-of-screen: 6px;
@@ -23,12 +23,12 @@
         &:first-child {
             font-weight: bold;
             font-size: $font-size-base;
-            padding: .3em 0;
+            padding-top: .3em;
             color: $text-primary;
         }
 
         &:last-child {
-            padding: .4em 0;
+            padding-top: .3em;
             color: $text-primary;
         }
     }
@@ -36,7 +36,7 @@
     &-body {
         font-weight: normal;
         font-size: $font-size-base;
-        padding: .5em 0;
+        padding-top: .6em;
     }
 
     &-actions {
@@ -79,7 +79,7 @@
 
     #notification {
         border-image: url("img/containers/light-bg-marked-orange.svg") 7;
-        padding: .8em .8em .6em 1em;
+        padding: .8em .8em .8em 1em;
 
         &.multi-line-notification {
             border-image: url("img/containers/light-bg-marked-blue.svg") 7;
