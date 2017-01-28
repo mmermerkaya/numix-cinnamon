@@ -724,12 +724,12 @@ StScrollBar StButton#hhandle:active {
 
 #notification CinnamonGenericContainer * {
   color: rgba(238, 238, 238, 0.65);
-  padding-bottom: .3em;
+  border-bottom: .3em;
 }
 
 #notification CinnamonGenericContainer *:first-child, #notification CinnamonGenericContainer *:last-child {
   color: #eee;
-  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 #notification-body {
