@@ -17,12 +17,10 @@
     CinnamonGenericContainer * {
         // time status
         color: $text-secondary;
-        border-bottom: 3px;
 
         // title and message
         &:first-child, &:last-child {
             color: $text-primary;
-            border-bottom: 0;
         }
     }
 
