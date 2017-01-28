@@ -17,7 +17,7 @@
     CinnamonGenericContainer * {
         // time status
         color: $text-secondary;
-        border-bottom: .3em;
+        border-bottom: 3px;
 
         // title and message
         &:first-child, &:last-child {
