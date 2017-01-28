@@ -11,25 +11,18 @@
     spacing-columns: 10px;
     width: 34em;
     margin-from-right-edge-of-screen: 6px;
-    font-weight: bold;
     font-size: $font-size-base;
     color: $text-primary;
 
     CinnamonGenericContainer * {
-        font-weight: normal;
-        font-size: $font-size-base;
+        // time status
         color: $text-secondary;
+        padding-bottom: .3em;
 
-        &:first-child {
-            font-weight: bold;
-            font-size: $font-size-base;
-            padding-top: .3em;
+        // title and message
+        &:first-child, &:last-child {
             color: $text-primary;
-        }
-
-        &:last-child {
-            padding-top: .3em;
-            color: $text-primary;
+            padding-bottom: 0;
         }
     }
 
