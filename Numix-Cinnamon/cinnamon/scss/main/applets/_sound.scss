@@ -3,7 +3,7 @@
  * ====================================== */
 
 .sound-player {
-    padding: 0 1px;
+    padding: 0;
 
     > StBoxLayout:first-child {
         padding: .4em 1.3em;
@@ -42,11 +42,12 @@
     }
 
     .slider {
-        padding-top: 1px;
         height: 6px;
         min-width: 15em;
         -slider-background-color: #525252;
         -slider-active-background-color: $accent-primary;
         -slider-handle-radius: 0;
+        border: 0 rgba(#000, .2);
+        border-bottom: 1px;
     }
 }

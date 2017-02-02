@@ -1606,7 +1606,7 @@ StScrollBar StButton#hhandle:active {
  * ! Sound Applet
  * ====================================== */
 .sound-player {
-  padding: 0 1px;
+  padding: 0;
 }
 
 .sound-player > StBoxLayout:first-child {
@@ -1712,12 +1712,13 @@ StScrollBar StButton#hhandle:active {
 }
 
 .sound-player .slider {
-  padding-top: 1px;
   height: 6px;
   min-width: 15em;
   -slider-background-color: #525252;
   -slider-active-background-color: #f0544c;
   -slider-handle-radius: 0;
+  border: 0 rgba(0, 0, 0, 0.2);
+  border-bottom: 1px;
 }
 
 /* ======================================
