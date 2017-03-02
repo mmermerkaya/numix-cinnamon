@@ -3360,7 +3360,7 @@ use to override window-list-item-box */
 .timepp-menu .numpicker {
   border-image: none;
   spacing: 0;
-  padding: 0 .3em;
+  padding: 0;
 }
 
 .timepp-menu .numpicker-counter {
