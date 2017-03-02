@@ -164,7 +164,7 @@ StScrollBar StButton#hhandle:active {
   background-image: url("img/controls/check-box-checked.svg");
 }
 
-.check-box:focus:checked {
+.check-box:focus:checked StBin {
   background-image: url("img/controls/check-box-checked-focused.svg");
 }
 
@@ -187,7 +187,7 @@ StScrollBar StButton#hhandle:active {
   background-image: url("img/controls/radiobutton-checked.svg");
 }
 
-.radiobutton:focus:checked {
+.radiobutton:focus:checked StBin {
   background-image: url("img/controls/radiobutton-checked-focused.svg");
 }
 

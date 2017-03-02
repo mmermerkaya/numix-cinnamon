@@ -23,7 +23,7 @@
             background-image: url("img/controls/#{$v}-checked.svg");
         }
 
-        &:focus:checked {
+        &:focus:checked StBin {
             background-image: url("img/controls/#{$v}-checked-focused.svg");
         }
     }
