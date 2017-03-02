@@ -127,24 +127,24 @@
         $text-primary,
         'primary',
         $text-link,
-        'green',
+        'orange',
         $text-disabled
     );
 }
 
 @mixin btn-linked-primary {
-    @include btn('m', $text-primary, 'primary', $text-link);
+    @include btn('m', $text-primary, 'primary', $text-link, 'orange');
 
     &:first-child {
-        @include btn('f', $text-primary, 'primary', $text-link);
+        @include btn('f', $text-primary, 'primary', $text-link, 'orange');
     }
 
     &:last-child {
-        @include btn('l', $text-primary, 'primary', $text-link);
+        @include btn('l', $text-primary, 'primary', $text-link, 'orange');
     }
 
     &:last-child:first-child {
-        @include btn('s', $text-primary, 'primary', $text-link);
+        @include btn('s', $text-primary, 'primary', $text-link, 'orange');
     }
 }
 

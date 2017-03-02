@@ -1,0 +1,72 @@
+/* ======================================
+ * ! Timepp applet
+ * ====================================== */
+@each $pos in top, bottom, left, right {
+    .panel-#{$pos} .timepp-panel-box .applet-box {
+        border-image: url("img/panel/window-list__#{$pos}__active.svg") 4;
+
+        &:hover, &:checked {
+            border-image: url("img/panel/window-list__#{$pos}__active__hover.svg") 4;
+        }
+    }
+
+    .panel-#{$pos} .timepp-panel-box .applet-box.off {
+        border-image: none;
+        StLabel, StIcon { color: $text-secondary; }
+
+        &:hover, &:checked {
+            border-image: url("img/panel/applet__#{$pos}__hover.svg") 4;
+            StLabel, StIcon { color: $text-primary; }
+        }
+    }
+}
+
+.timepp-menu {
+    .numpicker {
+        border-image: none;
+        spacing: 0;
+        padding: 0 .3em;
+
+        &-counter {
+            border-image: url("img/containers/light-bg__first__horiz.svg") 10;
+            padding: 0 .7em;
+        }
+
+        &-arrow-box {
+            border-image: url("img/containers/light-bg__last__horiz.svg") 10;
+            padding: .2em .3em;
+        }
+
+        &-arrow:hover StIcon,
+        &-arrow:focus StIcon { color: $text-link; }
+    }
+
+    .settings-icon:focus, .settings-icon:hover {
+        color: $text-link;
+    }
+
+    .stopwatch-section {
+    }
+
+    .pomo-section {
+        .settings-item:first-child {
+            color: $text-danger;
+            font-weight: bold;
+        }
+    }
+
+    .alarm-section {
+        .alarm-item {
+            border-image: url("img/containers/light-bg-marked-orange.svg") 10;
+            max-width: 220px;
+            padding: .8em .8em .8em 1.2em;
+        }
+
+        .day {
+            @include btn-linked-primary;
+            padding: 1em 0;
+
+            &:focus { outline: 0; }
+        }
+    }
+}

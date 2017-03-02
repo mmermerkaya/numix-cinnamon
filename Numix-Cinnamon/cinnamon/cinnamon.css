@@ -147,12 +147,12 @@ StScrollBar StButton#hhandle:active {
  * ====================================== */
 .check-box CinnamonGenericContainer {
   spacing: .2em;
-  min-height: 17px;
+  min-height: 16px;
 }
 
 .check-box StBin {
-  width: 17px;
-  height: 17px;
+  width: 16px;
+  height: 16px;
   background-image: url("img/controls/check-box.svg");
 }
 
@@ -170,12 +170,12 @@ StScrollBar StButton#hhandle:active {
 
 .radiobutton CinnamonGenericContainer {
   spacing: .2em;
-  min-height: 17px;
+  min-height: 16px;
 }
 
 .radiobutton StBin {
-  width: 17px;
-  height: 17px;
+  width: 16px;
+  height: 16px;
   background-image: url("img/controls/radiobutton.svg");
 }
 
@@ -235,7 +235,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .button:focus {
-  border-image: url("img/buttons/button-green__s.svg") 10;
+  border-image: url("img/buttons/button-orange__s.svg") 10;
   color: #fff;
 }
 
@@ -244,11 +244,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .button:focus:hover {
-  border-image: url("img/buttons/button-green__s--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__s--hover.svg") 10;
 }
 
 .button:focus:active, .button:focus:pressed, .button:focus:activate, .button:focus:checked, .button:focus:selected {
-  border-image: url("img/buttons/button-green__s--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__s--pressed.svg") 10;
 }
 
 .button:grayed, .button:disabled, .button:insensitive, .button:focus:grayed, .button:focus:disabled, .button:focus:insensitive {
@@ -825,7 +825,7 @@ StScrollBar StButton#hhandle:active {
 
 .notification-button:focus,
 .notification-icon-button:focus {
-  border-image: url("img/buttons/button-green__s.svg") 10;
+  border-image: url("img/buttons/button-orange__s.svg") 10;
   color: #fff;
 }
 
@@ -836,7 +836,7 @@ StScrollBar StButton#hhandle:active {
 
 .notification-button:focus:hover,
 .notification-icon-button:focus:hover {
-  border-image: url("img/buttons/button-green__s--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__s--hover.svg") 10;
 }
 
 .notification-button:focus:active, .notification-button:focus:pressed, .notification-button:focus:activate, .notification-button:focus:checked, .notification-button:focus:selected,
@@ -845,7 +845,7 @@ StScrollBar StButton#hhandle:active {
 .notification-icon-button:focus:activate,
 .notification-icon-button:focus:checked,
 .notification-icon-button:focus:selected {
-  border-image: url("img/buttons/button-green__s--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__s--pressed.svg") 10;
 }
 
 .notification-button:grayed, .notification-button:disabled, .notification-button:insensitive, .notification-button:focus:grayed, .notification-button:focus:disabled, .notification-button:focus:insensitive,
@@ -1031,7 +1031,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .modal-dialog-button:focus {
-  border-image: url("img/buttons/button-green__s.svg") 10;
+  border-image: url("img/buttons/button-orange__s.svg") 10;
   color: #fff;
 }
 
@@ -1040,11 +1040,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .modal-dialog-button:focus:hover {
-  border-image: url("img/buttons/button-green__s--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__s--hover.svg") 10;
 }
 
 .modal-dialog-button:focus:active, .modal-dialog-button:focus:pressed, .modal-dialog-button:focus:activate, .modal-dialog-button:focus:checked, .modal-dialog-button:focus:selected {
-  border-image: url("img/buttons/button-green__s--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__s--pressed.svg") 10;
 }
 
 .modal-dialog-button:grayed, .modal-dialog-button:disabled, .modal-dialog-button:insensitive, .modal-dialog-button:focus:grayed, .modal-dialog-button:focus:disabled, .modal-dialog-button:focus:insensitive {
@@ -1214,7 +1214,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .keyboard-key:focus {
-  border-image: url("img/buttons/button-green__s.svg") 10;
+  border-image: url("img/buttons/button-orange__s.svg") 10;
   color: #fff;
 }
 
@@ -1223,11 +1223,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .keyboard-key:focus:hover {
-  border-image: url("img/buttons/button-green__s--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__s--hover.svg") 10;
 }
 
 .keyboard-key:focus:active, .keyboard-key:focus:pressed, .keyboard-key:focus:activate, .keyboard-key:focus:checked, .keyboard-key:focus:selected {
-  border-image: url("img/buttons/button-green__s--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__s--pressed.svg") 10;
 }
 
 .keyboard-key:grayed, .keyboard-key:disabled, .keyboard-key:insensitive, .keyboard-key:focus:grayed, .keyboard-key:focus:disabled, .keyboard-key:focus:insensitive {
@@ -1692,7 +1692,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .sound-player-overlay StButton:focus {
-  border-image: url("img/buttons/button-green__s.svg") 10;
+  border-image: url("img/buttons/button-orange__s.svg") 10;
   color: #fff;
 }
 
@@ -1701,11 +1701,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .sound-player-overlay StButton:focus:hover {
-  border-image: url("img/buttons/button-green__s--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__s--hover.svg") 10;
 }
 
 .sound-player-overlay StButton:focus:active, .sound-player-overlay StButton:focus:pressed, .sound-player-overlay StButton:focus:activate, .sound-player-overlay StButton:focus:checked, .sound-player-overlay StButton:focus:selected {
-  border-image: url("img/buttons/button-green__s--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__s--pressed.svg") 10;
 }
 
 .sound-player-overlay StButton:grayed, .sound-player-overlay StButton:disabled, .sound-player-overlay StButton:insensitive, .sound-player-overlay StButton:focus:grayed, .sound-player-overlay StButton:focus:disabled, .sound-player-overlay StButton:focus:insensitive {
@@ -2451,7 +2451,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .button:focus {
-  border-image: url("img/buttons/button-green__s.svg") 10;
+  border-image: url("img/buttons/button-orange__s.svg") 10;
   color: #fff;
 }
 
@@ -2460,11 +2460,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .button:focus:hover {
-  border-image: url("img/buttons/button-green__s--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__s--hover.svg") 10;
 }
 
 .slingshot .button:focus:active, .slingshot .button:focus:pressed, .slingshot .button:focus:activate, .slingshot .button:focus:checked, .slingshot .button:focus:selected {
-  border-image: url("img/buttons/button-green__s--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__s--pressed.svg") 10;
 }
 
 .slingshot .button:grayed, .slingshot .button:disabled, .slingshot .button:insensitive, .slingshot .button:focus:grayed, .slingshot .button:focus:disabled, .slingshot .button:focus:insensitive {
@@ -2583,7 +2583,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .linked .button:focus {
-  border-image: url("img/buttons/button-primary__m.svg") 10;
+  border-image: url("img/buttons/button-orange__m.svg") 10;
   color: #fff;
 }
 
@@ -2592,11 +2592,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .linked .button:focus:hover {
-  border-image: url("img/buttons/button-primary__m--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__m--hover.svg") 10;
 }
 
 .slingshot .linked .button:focus:active, .slingshot .linked .button:focus:pressed, .slingshot .linked .button:focus:activate, .slingshot .linked .button:focus:checked, .slingshot .linked .button:focus:selected {
-  border-image: url("img/buttons/button-primary__m--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__m--pressed.svg") 10;
 }
 
 .slingshot .linked .button:grayed, .slingshot .linked .button:disabled, .slingshot .linked .button:insensitive, .slingshot .linked .button:focus:grayed, .slingshot .linked .button:focus:disabled, .slingshot .linked .button:focus:insensitive {
@@ -2648,7 +2648,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .linked .button:first-child:focus {
-  border-image: url("img/buttons/button-primary__f.svg") 10;
+  border-image: url("img/buttons/button-orange__f.svg") 10;
   color: #fff;
 }
 
@@ -2657,11 +2657,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .linked .button:first-child:focus:hover {
-  border-image: url("img/buttons/button-primary__f--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__f--hover.svg") 10;
 }
 
 .slingshot .linked .button:first-child:focus:active, .slingshot .linked .button:first-child:focus:pressed, .slingshot .linked .button:first-child:focus:activate, .slingshot .linked .button:first-child:focus:checked, .slingshot .linked .button:first-child:focus:selected {
-  border-image: url("img/buttons/button-primary__f--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__f--pressed.svg") 10;
 }
 
 .slingshot .linked .button:first-child:grayed, .slingshot .linked .button:first-child:disabled, .slingshot .linked .button:first-child:insensitive, .slingshot .linked .button:first-child:focus:grayed, .slingshot .linked .button:first-child:focus:disabled, .slingshot .linked .button:first-child:focus:insensitive {
@@ -2713,7 +2713,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .linked .button:last-child:focus {
-  border-image: url("img/buttons/button-primary__l.svg") 10;
+  border-image: url("img/buttons/button-orange__l.svg") 10;
   color: #fff;
 }
 
@@ -2722,11 +2722,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .linked .button:last-child:focus:hover {
-  border-image: url("img/buttons/button-primary__l--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__l--hover.svg") 10;
 }
 
 .slingshot .linked .button:last-child:focus:active, .slingshot .linked .button:last-child:focus:pressed, .slingshot .linked .button:last-child:focus:activate, .slingshot .linked .button:last-child:focus:checked, .slingshot .linked .button:last-child:focus:selected {
-  border-image: url("img/buttons/button-primary__l--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__l--pressed.svg") 10;
 }
 
 .slingshot .linked .button:last-child:grayed, .slingshot .linked .button:last-child:disabled, .slingshot .linked .button:last-child:insensitive, .slingshot .linked .button:last-child:focus:grayed, .slingshot .linked .button:last-child:focus:disabled, .slingshot .linked .button:last-child:focus:insensitive {
@@ -2778,7 +2778,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .linked .button:last-child:first-child:focus {
-  border-image: url("img/buttons/button-primary__s.svg") 10;
+  border-image: url("img/buttons/button-orange__s.svg") 10;
   color: #fff;
 }
 
@@ -2787,11 +2787,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .slingshot .linked .button:last-child:first-child:focus:hover {
-  border-image: url("img/buttons/button-primary__s--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__s--hover.svg") 10;
 }
 
 .slingshot .linked .button:last-child:first-child:focus:active, .slingshot .linked .button:last-child:first-child:focus:pressed, .slingshot .linked .button:last-child:first-child:focus:activate, .slingshot .linked .button:last-child:first-child:focus:checked, .slingshot .linked .button:last-child:first-child:focus:selected {
-  border-image: url("img/buttons/button-primary__s--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__s--pressed.svg") 10;
 }
 
 .slingshot .linked .button:last-child:first-child:grayed, .slingshot .linked .button:last-child:first-child:disabled, .slingshot .linked .button:last-child:first-child:insensitive, .slingshot .linked .button:last-child:first-child:focus:grayed, .slingshot .linked .button:last-child:first-child:focus:disabled, .slingshot .linked .button:last-child:first-child:focus:insensitive {
@@ -3259,6 +3259,406 @@ use to override window-list-item-box */
 }
 
 /* ======================================
+ * ! Timepp applet
+ * ====================================== */
+.panel-top .timepp-panel-box .applet-box {
+  border-image: url("img/panel/window-list__top__active.svg") 4;
+}
+
+.panel-top .timepp-panel-box .applet-box:hover, .panel-top .timepp-panel-box .applet-box:checked {
+  border-image: url("img/panel/window-list__top__active__hover.svg") 4;
+}
+
+.panel-top .timepp-panel-box .applet-box.off {
+  border-image: none;
+}
+
+.panel-top .timepp-panel-box .applet-box.off StLabel, .panel-top .timepp-panel-box .applet-box.off StIcon {
+  color: rgba(238, 238, 238, 0.65);
+}
+
+.panel-top .timepp-panel-box .applet-box.off:hover, .panel-top .timepp-panel-box .applet-box.off:checked {
+  border-image: url("img/panel/applet__top__hover.svg") 4;
+}
+
+.panel-top .timepp-panel-box .applet-box.off:hover StLabel, .panel-top .timepp-panel-box .applet-box.off:hover StIcon, .panel-top .timepp-panel-box .applet-box.off:checked StLabel, .panel-top .timepp-panel-box .applet-box.off:checked StIcon {
+  color: #eee;
+}
+
+.panel-bottom .timepp-panel-box .applet-box {
+  border-image: url("img/panel/window-list__bottom__active.svg") 4;
+}
+
+.panel-bottom .timepp-panel-box .applet-box:hover, .panel-bottom .timepp-panel-box .applet-box:checked {
+  border-image: url("img/panel/window-list__bottom__active__hover.svg") 4;
+}
+
+.panel-bottom .timepp-panel-box .applet-box.off {
+  border-image: none;
+}
+
+.panel-bottom .timepp-panel-box .applet-box.off StLabel, .panel-bottom .timepp-panel-box .applet-box.off StIcon {
+  color: rgba(238, 238, 238, 0.65);
+}
+
+.panel-bottom .timepp-panel-box .applet-box.off:hover, .panel-bottom .timepp-panel-box .applet-box.off:checked {
+  border-image: url("img/panel/applet__bottom__hover.svg") 4;
+}
+
+.panel-bottom .timepp-panel-box .applet-box.off:hover StLabel, .panel-bottom .timepp-panel-box .applet-box.off:hover StIcon, .panel-bottom .timepp-panel-box .applet-box.off:checked StLabel, .panel-bottom .timepp-panel-box .applet-box.off:checked StIcon {
+  color: #eee;
+}
+
+.panel-left .timepp-panel-box .applet-box {
+  border-image: url("img/panel/window-list__left__active.svg") 4;
+}
+
+.panel-left .timepp-panel-box .applet-box:hover, .panel-left .timepp-panel-box .applet-box:checked {
+  border-image: url("img/panel/window-list__left__active__hover.svg") 4;
+}
+
+.panel-left .timepp-panel-box .applet-box.off {
+  border-image: none;
+}
+
+.panel-left .timepp-panel-box .applet-box.off StLabel, .panel-left .timepp-panel-box .applet-box.off StIcon {
+  color: rgba(238, 238, 238, 0.65);
+}
+
+.panel-left .timepp-panel-box .applet-box.off:hover, .panel-left .timepp-panel-box .applet-box.off:checked {
+  border-image: url("img/panel/applet__left__hover.svg") 4;
+}
+
+.panel-left .timepp-panel-box .applet-box.off:hover StLabel, .panel-left .timepp-panel-box .applet-box.off:hover StIcon, .panel-left .timepp-panel-box .applet-box.off:checked StLabel, .panel-left .timepp-panel-box .applet-box.off:checked StIcon {
+  color: #eee;
+}
+
+.panel-right .timepp-panel-box .applet-box {
+  border-image: url("img/panel/window-list__right__active.svg") 4;
+}
+
+.panel-right .timepp-panel-box .applet-box:hover, .panel-right .timepp-panel-box .applet-box:checked {
+  border-image: url("img/panel/window-list__right__active__hover.svg") 4;
+}
+
+.panel-right .timepp-panel-box .applet-box.off {
+  border-image: none;
+}
+
+.panel-right .timepp-panel-box .applet-box.off StLabel, .panel-right .timepp-panel-box .applet-box.off StIcon {
+  color: rgba(238, 238, 238, 0.65);
+}
+
+.panel-right .timepp-panel-box .applet-box.off:hover, .panel-right .timepp-panel-box .applet-box.off:checked {
+  border-image: url("img/panel/applet__right__hover.svg") 4;
+}
+
+.panel-right .timepp-panel-box .applet-box.off:hover StLabel, .panel-right .timepp-panel-box .applet-box.off:hover StIcon, .panel-right .timepp-panel-box .applet-box.off:checked StLabel, .panel-right .timepp-panel-box .applet-box.off:checked StIcon {
+  color: #eee;
+}
+
+.timepp-menu .numpicker {
+  border-image: none;
+  spacing: 0;
+  padding: 0 .3em;
+}
+
+.timepp-menu .numpicker-counter {
+  border-image: url("img/containers/light-bg__first__horiz.svg") 10;
+  padding: 0 .7em;
+}
+
+.timepp-menu .numpicker-arrow-box {
+  border-image: url("img/containers/light-bg__last__horiz.svg") 10;
+  padding: .2em .3em;
+}
+
+.timepp-menu .numpicker-arrow:hover StIcon,
+.timepp-menu .numpicker-arrow:focus StIcon {
+  color: #f0544c;
+}
+
+.timepp-menu .settings-icon:focus, .timepp-menu .settings-icon:hover {
+  color: #f0544c;
+}
+
+.timepp-menu .pomo-section .settings-item:first-child {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.timepp-menu .alarm-section .alarm-item {
+  border-image: url("img/containers/light-bg-marked-orange.svg") 10;
+  max-width: 220px;
+  padding: .8em .8em .8em 1.2em;
+}
+
+.timepp-menu .alarm-section .day {
+  background-color: transparent;
+  background-gradient-direction: none;
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
+  border: none;
+  border-width: 0;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 12px;
+  border-image: url("img/buttons/button-primary__m.svg") 10;
+  color: #eee;
+  padding: 1em 0;
+}
+
+.timepp-menu .alarm-section .day StIcon {
+  icon-size: 16px !important;
+}
+
+.timepp-menu .alarm-section .day StIcon {
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:hover, .timepp-menu .alarm-section .day:active, .timepp-menu .alarm-section .day:checked, .timepp-menu .alarm-section .day:activate, .timepp-menu .alarm-section .day:pressed, .timepp-menu .alarm-section .day:selected {
+  color: #f0544c;
+}
+
+.timepp-menu .alarm-section .day:hover StIcon, .timepp-menu .alarm-section .day:active StIcon, .timepp-menu .alarm-section .day:checked StIcon, .timepp-menu .alarm-section .day:activate StIcon, .timepp-menu .alarm-section .day:pressed StIcon, .timepp-menu .alarm-section .day:selected StIcon {
+  color: #f0544c;
+}
+
+.timepp-menu .alarm-section .day:hover {
+  border-image: url("img/buttons/button-primary__m--hover.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:active, .timepp-menu .alarm-section .day:pressed, .timepp-menu .alarm-section .day:activate, .timepp-menu .alarm-section .day:checked, .timepp-menu .alarm-section .day:selected {
+  border-image: url("img/buttons/button-primary__m--pressed.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:focus {
+  border-image: url("img/buttons/button-orange__m.svg") 10;
+  color: #fff;
+}
+
+.timepp-menu .alarm-section .day:focus StIcon {
+  color: #fff;
+}
+
+.timepp-menu .alarm-section .day:focus:hover {
+  border-image: url("img/buttons/button-orange__m--hover.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:focus:active, .timepp-menu .alarm-section .day:focus:pressed, .timepp-menu .alarm-section .day:focus:activate, .timepp-menu .alarm-section .day:focus:checked, .timepp-menu .alarm-section .day:focus:selected {
+  border-image: url("img/buttons/button-orange__m--pressed.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:grayed, .timepp-menu .alarm-section .day:disabled, .timepp-menu .alarm-section .day:insensitive, .timepp-menu .alarm-section .day:focus:grayed, .timepp-menu .alarm-section .day:focus:disabled, .timepp-menu .alarm-section .day:focus:insensitive {
+  border-image: url("img/buttons/button-primary__m.svg") 10;
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:grayed StIcon, .timepp-menu .alarm-section .day:disabled StIcon, .timepp-menu .alarm-section .day:insensitive StIcon, .timepp-menu .alarm-section .day:focus:grayed StIcon, .timepp-menu .alarm-section .day:focus:disabled StIcon, .timepp-menu .alarm-section .day:focus:insensitive StIcon {
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:first-child {
+  background-color: transparent;
+  background-gradient-direction: none;
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
+  border: none;
+  border-width: 0;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 12px;
+  border-image: url("img/buttons/button-primary__f.svg") 10;
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:first-child StIcon {
+  icon-size: 16px !important;
+}
+
+.timepp-menu .alarm-section .day:first-child StIcon {
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:first-child:hover, .timepp-menu .alarm-section .day:first-child:active, .timepp-menu .alarm-section .day:first-child:checked, .timepp-menu .alarm-section .day:first-child:activate, .timepp-menu .alarm-section .day:first-child:pressed, .timepp-menu .alarm-section .day:first-child:selected {
+  color: #f0544c;
+}
+
+.timepp-menu .alarm-section .day:first-child:hover StIcon, .timepp-menu .alarm-section .day:first-child:active StIcon, .timepp-menu .alarm-section .day:first-child:checked StIcon, .timepp-menu .alarm-section .day:first-child:activate StIcon, .timepp-menu .alarm-section .day:first-child:pressed StIcon, .timepp-menu .alarm-section .day:first-child:selected StIcon {
+  color: #f0544c;
+}
+
+.timepp-menu .alarm-section .day:first-child:hover {
+  border-image: url("img/buttons/button-primary__f--hover.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:first-child:active, .timepp-menu .alarm-section .day:first-child:pressed, .timepp-menu .alarm-section .day:first-child:activate, .timepp-menu .alarm-section .day:first-child:checked, .timepp-menu .alarm-section .day:first-child:selected {
+  border-image: url("img/buttons/button-primary__f--pressed.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:first-child:focus {
+  border-image: url("img/buttons/button-orange__f.svg") 10;
+  color: #fff;
+}
+
+.timepp-menu .alarm-section .day:first-child:focus StIcon {
+  color: #fff;
+}
+
+.timepp-menu .alarm-section .day:first-child:focus:hover {
+  border-image: url("img/buttons/button-orange__f--hover.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:first-child:focus:active, .timepp-menu .alarm-section .day:first-child:focus:pressed, .timepp-menu .alarm-section .day:first-child:focus:activate, .timepp-menu .alarm-section .day:first-child:focus:checked, .timepp-menu .alarm-section .day:first-child:focus:selected {
+  border-image: url("img/buttons/button-orange__f--pressed.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:first-child:grayed, .timepp-menu .alarm-section .day:first-child:disabled, .timepp-menu .alarm-section .day:first-child:insensitive, .timepp-menu .alarm-section .day:first-child:focus:grayed, .timepp-menu .alarm-section .day:first-child:focus:disabled, .timepp-menu .alarm-section .day:first-child:focus:insensitive {
+  border-image: url("img/buttons/button-primary__f.svg") 10;
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:first-child:grayed StIcon, .timepp-menu .alarm-section .day:first-child:disabled StIcon, .timepp-menu .alarm-section .day:first-child:insensitive StIcon, .timepp-menu .alarm-section .day:first-child:focus:grayed StIcon, .timepp-menu .alarm-section .day:first-child:focus:disabled StIcon, .timepp-menu .alarm-section .day:first-child:focus:insensitive StIcon {
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:last-child {
+  background-color: transparent;
+  background-gradient-direction: none;
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
+  border: none;
+  border-width: 0;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 12px;
+  border-image: url("img/buttons/button-primary__l.svg") 10;
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:last-child StIcon {
+  icon-size: 16px !important;
+}
+
+.timepp-menu .alarm-section .day:last-child StIcon {
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:last-child:hover, .timepp-menu .alarm-section .day:last-child:active, .timepp-menu .alarm-section .day:last-child:checked, .timepp-menu .alarm-section .day:last-child:activate, .timepp-menu .alarm-section .day:last-child:pressed, .timepp-menu .alarm-section .day:last-child:selected {
+  color: #f0544c;
+}
+
+.timepp-menu .alarm-section .day:last-child:hover StIcon, .timepp-menu .alarm-section .day:last-child:active StIcon, .timepp-menu .alarm-section .day:last-child:checked StIcon, .timepp-menu .alarm-section .day:last-child:activate StIcon, .timepp-menu .alarm-section .day:last-child:pressed StIcon, .timepp-menu .alarm-section .day:last-child:selected StIcon {
+  color: #f0544c;
+}
+
+.timepp-menu .alarm-section .day:last-child:hover {
+  border-image: url("img/buttons/button-primary__l--hover.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:last-child:active, .timepp-menu .alarm-section .day:last-child:pressed, .timepp-menu .alarm-section .day:last-child:activate, .timepp-menu .alarm-section .day:last-child:checked, .timepp-menu .alarm-section .day:last-child:selected {
+  border-image: url("img/buttons/button-primary__l--pressed.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:last-child:focus {
+  border-image: url("img/buttons/button-orange__l.svg") 10;
+  color: #fff;
+}
+
+.timepp-menu .alarm-section .day:last-child:focus StIcon {
+  color: #fff;
+}
+
+.timepp-menu .alarm-section .day:last-child:focus:hover {
+  border-image: url("img/buttons/button-orange__l--hover.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:last-child:focus:active, .timepp-menu .alarm-section .day:last-child:focus:pressed, .timepp-menu .alarm-section .day:last-child:focus:activate, .timepp-menu .alarm-section .day:last-child:focus:checked, .timepp-menu .alarm-section .day:last-child:focus:selected {
+  border-image: url("img/buttons/button-orange__l--pressed.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:last-child:grayed, .timepp-menu .alarm-section .day:last-child:disabled, .timepp-menu .alarm-section .day:last-child:insensitive, .timepp-menu .alarm-section .day:last-child:focus:grayed, .timepp-menu .alarm-section .day:last-child:focus:disabled, .timepp-menu .alarm-section .day:last-child:focus:insensitive {
+  border-image: url("img/buttons/button-primary__l.svg") 10;
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:last-child:grayed StIcon, .timepp-menu .alarm-section .day:last-child:disabled StIcon, .timepp-menu .alarm-section .day:last-child:insensitive StIcon, .timepp-menu .alarm-section .day:last-child:focus:grayed StIcon, .timepp-menu .alarm-section .day:last-child:focus:disabled StIcon, .timepp-menu .alarm-section .day:last-child:focus:insensitive StIcon {
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child {
+  background-color: transparent;
+  background-gradient-direction: none;
+  background-gradient-start: transparent;
+  background-gradient-end: transparent;
+  box-shadow: 0 0 transparent;
+  border: none;
+  border-width: 0;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 12px;
+  border-image: url("img/buttons/button-primary__s.svg") 10;
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child StIcon {
+  icon-size: 16px !important;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child StIcon {
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child:hover, .timepp-menu .alarm-section .day:last-child:first-child:active, .timepp-menu .alarm-section .day:last-child:first-child:checked, .timepp-menu .alarm-section .day:last-child:first-child:activate, .timepp-menu .alarm-section .day:last-child:first-child:pressed, .timepp-menu .alarm-section .day:last-child:first-child:selected {
+  color: #f0544c;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child:hover StIcon, .timepp-menu .alarm-section .day:last-child:first-child:active StIcon, .timepp-menu .alarm-section .day:last-child:first-child:checked StIcon, .timepp-menu .alarm-section .day:last-child:first-child:activate StIcon, .timepp-menu .alarm-section .day:last-child:first-child:pressed StIcon, .timepp-menu .alarm-section .day:last-child:first-child:selected StIcon {
+  color: #f0544c;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child:hover {
+  border-image: url("img/buttons/button-primary__s--hover.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child:active, .timepp-menu .alarm-section .day:last-child:first-child:pressed, .timepp-menu .alarm-section .day:last-child:first-child:activate, .timepp-menu .alarm-section .day:last-child:first-child:checked, .timepp-menu .alarm-section .day:last-child:first-child:selected {
+  border-image: url("img/buttons/button-primary__s--pressed.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child:focus {
+  border-image: url("img/buttons/button-orange__s.svg") 10;
+  color: #fff;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child:focus StIcon {
+  color: #fff;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child:focus:hover {
+  border-image: url("img/buttons/button-orange__s--hover.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child:focus:active, .timepp-menu .alarm-section .day:last-child:first-child:focus:pressed, .timepp-menu .alarm-section .day:last-child:first-child:focus:activate, .timepp-menu .alarm-section .day:last-child:first-child:focus:checked, .timepp-menu .alarm-section .day:last-child:first-child:focus:selected {
+  border-image: url("img/buttons/button-orange__s--pressed.svg") 10;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child:grayed, .timepp-menu .alarm-section .day:last-child:first-child:disabled, .timepp-menu .alarm-section .day:last-child:first-child:insensitive, .timepp-menu .alarm-section .day:last-child:first-child:focus:grayed, .timepp-menu .alarm-section .day:last-child:first-child:focus:disabled, .timepp-menu .alarm-section .day:last-child:first-child:focus:insensitive {
+  border-image: url("img/buttons/button-primary__s.svg") 10;
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:last-child:first-child:grayed StIcon, .timepp-menu .alarm-section .day:last-child:first-child:disabled StIcon, .timepp-menu .alarm-section .day:last-child:first-child:insensitive StIcon, .timepp-menu .alarm-section .day:last-child:first-child:focus:grayed StIcon, .timepp-menu .alarm-section .day:last-child:first-child:focus:disabled StIcon, .timepp-menu .alarm-section .day:last-child:first-child:focus:insensitive StIcon {
+  color: #eee;
+}
+
+.timepp-menu .alarm-section .day:focus {
+  outline: 0;
+}
+
+/* ======================================
  * ! Sticky Notes desklet
  * ====================================== */
 #sticky-scrollview StScrollBar {
@@ -3557,7 +3957,7 @@ use to override window-list-item-box */
 }
 
 .calc-button:focus {
-  border-image: url("img/buttons/button-green__s.svg") 10;
+  border-image: url("img/buttons/button-orange__s.svg") 10;
   color: #fff;
 }
 
@@ -3566,11 +3966,11 @@ use to override window-list-item-box */
 }
 
 .calc-button:focus:hover {
-  border-image: url("img/buttons/button-green__s--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__s--hover.svg") 10;
 }
 
 .calc-button:focus:active, .calc-button:focus:pressed, .calc-button:focus:activate, .calc-button:focus:checked, .calc-button:focus:selected {
-  border-image: url("img/buttons/button-green__s--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__s--pressed.svg") 10;
 }
 
 .calc-button:grayed, .calc-button:disabled, .calc-button:insensitive, .calc-button:focus:grayed, .calc-button:focus:disabled, .calc-button:focus:insensitive {
@@ -3695,7 +4095,7 @@ use to override window-list-item-box */
 }
 
 .settings-button:focus {
-  border-image: url("img/buttons/button-primary__m.svg") 10;
+  border-image: url("img/buttons/button-orange__m.svg") 10;
   color: #fff;
 }
 
@@ -3704,11 +4104,11 @@ use to override window-list-item-box */
 }
 
 .settings-button:focus:hover {
-  border-image: url("img/buttons/button-primary__m--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__m--hover.svg") 10;
 }
 
 .settings-button:focus:active, .settings-button:focus:pressed, .settings-button:focus:activate, .settings-button:focus:checked, .settings-button:focus:selected {
-  border-image: url("img/buttons/button-primary__m--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__m--pressed.svg") 10;
 }
 
 .settings-button:grayed, .settings-button:disabled, .settings-button:insensitive, .settings-button:focus:grayed, .settings-button:focus:disabled, .settings-button:focus:insensitive {
@@ -3760,7 +4160,7 @@ use to override window-list-item-box */
 }
 
 .settings-button:first-child:focus {
-  border-image: url("img/buttons/button-primary__f.svg") 10;
+  border-image: url("img/buttons/button-orange__f.svg") 10;
   color: #fff;
 }
 
@@ -3769,11 +4169,11 @@ use to override window-list-item-box */
 }
 
 .settings-button:first-child:focus:hover {
-  border-image: url("img/buttons/button-primary__f--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__f--hover.svg") 10;
 }
 
 .settings-button:first-child:focus:active, .settings-button:first-child:focus:pressed, .settings-button:first-child:focus:activate, .settings-button:first-child:focus:checked, .settings-button:first-child:focus:selected {
-  border-image: url("img/buttons/button-primary__f--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__f--pressed.svg") 10;
 }
 
 .settings-button:first-child:grayed, .settings-button:first-child:disabled, .settings-button:first-child:insensitive, .settings-button:first-child:focus:grayed, .settings-button:first-child:focus:disabled, .settings-button:first-child:focus:insensitive {
@@ -3825,7 +4225,7 @@ use to override window-list-item-box */
 }
 
 .settings-button:last-child:focus {
-  border-image: url("img/buttons/button-primary__l.svg") 10;
+  border-image: url("img/buttons/button-orange__l.svg") 10;
   color: #fff;
 }
 
@@ -3834,11 +4234,11 @@ use to override window-list-item-box */
 }
 
 .settings-button:last-child:focus:hover {
-  border-image: url("img/buttons/button-primary__l--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__l--hover.svg") 10;
 }
 
 .settings-button:last-child:focus:active, .settings-button:last-child:focus:pressed, .settings-button:last-child:focus:activate, .settings-button:last-child:focus:checked, .settings-button:last-child:focus:selected {
-  border-image: url("img/buttons/button-primary__l--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__l--pressed.svg") 10;
 }
 
 .settings-button:last-child:grayed, .settings-button:last-child:disabled, .settings-button:last-child:insensitive, .settings-button:last-child:focus:grayed, .settings-button:last-child:focus:disabled, .settings-button:last-child:focus:insensitive {
@@ -3890,7 +4290,7 @@ use to override window-list-item-box */
 }
 
 .settings-button:last-child:first-child:focus {
-  border-image: url("img/buttons/button-primary__s.svg") 10;
+  border-image: url("img/buttons/button-orange__s.svg") 10;
   color: #fff;
 }
 
@@ -3899,11 +4299,11 @@ use to override window-list-item-box */
 }
 
 .settings-button:last-child:first-child:focus:hover {
-  border-image: url("img/buttons/button-primary__s--hover.svg") 10;
+  border-image: url("img/buttons/button-orange__s--hover.svg") 10;
 }
 
 .settings-button:last-child:first-child:focus:active, .settings-button:last-child:first-child:focus:pressed, .settings-button:last-child:first-child:focus:activate, .settings-button:last-child:first-child:focus:checked, .settings-button:last-child:first-child:focus:selected {
-  border-image: url("img/buttons/button-primary__s--pressed.svg") 10;
+  border-image: url("img/buttons/button-orange__s--pressed.svg") 10;
 }
 
 .settings-button:last-child:first-child:grayed, .settings-button:last-child:first-child:disabled, .settings-button:last-child:first-child:insensitive, .settings-button:last-child:first-child:focus:grayed, .settings-button:last-child:first-child:focus:disabled, .settings-button:last-child:first-child:focus:insensitive {
