@@ -38,11 +38,11 @@
                     color: $text-primary;
                 }
             }
+        }
 
-            &-demands-attention {
-                border-image: url("img/panel/window-list__#{$pos}__attention.svg") 4;
-                color: $text-active;
-            }
+        .window-list-item-demands-attention {
+            border-image: url("img/panel/window-list__#{$pos}__attention.svg") 4;
+            color: $text-active;
         }
     }
 }
