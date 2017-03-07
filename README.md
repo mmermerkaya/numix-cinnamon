@@ -51,4 +51,4 @@ recompile sass and reload the theme when a change occurs.
 ---
 
 <img src="http://orig11.deviantart.net/8bdd/f/2017/063/4/8/numix_cinnamon_by_zagortenay333-d6dft70.png" id="preview">  
-<sup>**Preview info:** [Wallpaper](http://www.deviantart.com/users/outgoing?https://numixproject.org/), [Icons](https://github.com/moka-project/moka-icon-theme)</sup>
+<sup>**Preview info:** [Wallpaper](https://numixproject.org/), [Icons](https://github.com/moka-project/moka-icon-theme)</sup>
