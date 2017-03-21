@@ -1,10 +1,10 @@
-### Numix for cinnamon
+### Numix ArchBlue for cinnamon
 
 ---
 
 ### Installation
 
-Move the `Numix-Cinnamon` folder into your `~/.themes` directory.
+Move the `Numix-Cinnamon-ArchBlue` folder into your `~/.themes` directory.
 
 ---
 
