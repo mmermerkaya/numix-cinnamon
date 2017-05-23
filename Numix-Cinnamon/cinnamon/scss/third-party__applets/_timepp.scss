@@ -84,10 +84,12 @@
         project-color: $text-info;
         link-color:    $text-link;
 
+        .delete-complete-tasks-label,
+        .no-todo-file-msg { color: $text-danger; }
+
         .loading-msg      { color: $text-info; }
-        .no-todo-file-msg { color: $text-warning; }
-        .warning-label    { color: $text-warning; }
         .due-date-label   { color: $text-danger; }
+
         .date-label,
         .task-item.completed .due-date-label { color: $text-secondary; }
 
