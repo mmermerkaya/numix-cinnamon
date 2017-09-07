@@ -31,7 +31,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="20.594485"
-     inkscape:cx="6.1005973"
+     inkscape:cx="-1.3771328"
      inkscape:cy="14.541298"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -47,7 +47,7 @@
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
      gridtolerance="10000"
-     inkscape:object-nodes="false"
+     inkscape:object-nodes="true"
      inkscape:snap-grids="true"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -63,7 +63,9 @@
      guidecolor="#ff0b00"
      guideopacity="1"
      guidehicolor="#001aff"
-     guidehiopacity="0.49803922">
+     guidehiopacity="0.49803922"
+     inkscape:snap-intersection-paths="false"
+     inkscape:snap-smooth-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid3123"
@@ -133,7 +135,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -189,8 +191,10 @@
        inkscape:connector-curvature="0" />
     <path
        style="opacity:1;fill:#03a0f4;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 2 1 C 1.446 1 1 1.446 1 2 L 1 22 C 1 22.554 1.446 23 2 23 L 3 23 L 3 1 L 2 1 z "
+       d="M 2,1 C 1.446,1 1,1.446 1,2 l 0,20 c 0,0.554 0.446,1 1,1 L 4,23 4,1 Z"
        transform="translate(0,276)"
-       id="rect4182" />
+       id="rect4182"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssccs" />
   </g>
 </svg>

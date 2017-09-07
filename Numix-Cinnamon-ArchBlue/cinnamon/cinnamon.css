@@ -3261,100 +3261,105 @@ use to override window-list-item-box */
 /* ======================================
  * ! Timepp applet
  * ====================================== */
-.panel-top .timepp-panel-box .applet-box {
+.panel-top .timepp-panel-box .applet-box.on {
   border-image: url("img/panel/window-list__top__active.svg") 4;
 }
 
-.panel-top .timepp-panel-box .applet-box:hover, .panel-top .timepp-panel-box .applet-box:checked {
+.panel-top .timepp-panel-box .applet-box.on StLabel, .panel-top .timepp-panel-box .applet-box.on StIcon {
+  color: #eee;
+}
+
+.panel-top .timepp-panel-box .applet-box.on:hover, .panel-top .timepp-panel-box .applet-box.on:checked {
   border-image: url("img/panel/window-list__top__active__hover.svg") 4;
 }
 
-.panel-top .timepp-panel-box .applet-box.off {
+.panel-top .timepp-panel-box .applet-box {
   border-image: none;
 }
 
-.panel-top .timepp-panel-box .applet-box.off StLabel, .panel-top .timepp-panel-box .applet-box.off StIcon {
-  color: rgba(238, 238, 238, 0.65);
-}
-
-.panel-top .timepp-panel-box .applet-box.off:hover, .panel-top .timepp-panel-box .applet-box.off:checked {
+.panel-top .timepp-panel-box .applet-box:hover, .panel-top .timepp-panel-box .applet-box:checked {
   border-image: url("img/panel/applet__top__hover.svg") 4;
 }
 
-.panel-top .timepp-panel-box .applet-box.off:hover StLabel, .panel-top .timepp-panel-box .applet-box.off:hover StIcon, .panel-top .timepp-panel-box .applet-box.off:checked StLabel, .panel-top .timepp-panel-box .applet-box.off:checked StIcon {
+.panel-top .timepp-panel-box .applet-box:hover StLabel, .panel-top .timepp-panel-box .applet-box:hover StIcon, .panel-top .timepp-panel-box .applet-box:checked StLabel, .panel-top .timepp-panel-box .applet-box:checked StIcon {
   color: #eee;
 }
 
-.panel-bottom .timepp-panel-box .applet-box {
+.panel-bottom .timepp-panel-box .applet-box.on {
   border-image: url("img/panel/window-list__bottom__active.svg") 4;
 }
 
-.panel-bottom .timepp-panel-box .applet-box:hover, .panel-bottom .timepp-panel-box .applet-box:checked {
+.panel-bottom .timepp-panel-box .applet-box.on StLabel, .panel-bottom .timepp-panel-box .applet-box.on StIcon {
+  color: #eee;
+}
+
+.panel-bottom .timepp-panel-box .applet-box.on:hover, .panel-bottom .timepp-panel-box .applet-box.on:checked {
   border-image: url("img/panel/window-list__bottom__active__hover.svg") 4;
 }
 
-.panel-bottom .timepp-panel-box .applet-box.off {
+.panel-bottom .timepp-panel-box .applet-box {
   border-image: none;
 }
 
-.panel-bottom .timepp-panel-box .applet-box.off StLabel, .panel-bottom .timepp-panel-box .applet-box.off StIcon {
-  color: rgba(238, 238, 238, 0.65);
-}
-
-.panel-bottom .timepp-panel-box .applet-box.off:hover, .panel-bottom .timepp-panel-box .applet-box.off:checked {
+.panel-bottom .timepp-panel-box .applet-box:hover, .panel-bottom .timepp-panel-box .applet-box:checked {
   border-image: url("img/panel/applet__bottom__hover.svg") 4;
 }
 
-.panel-bottom .timepp-panel-box .applet-box.off:hover StLabel, .panel-bottom .timepp-panel-box .applet-box.off:hover StIcon, .panel-bottom .timepp-panel-box .applet-box.off:checked StLabel, .panel-bottom .timepp-panel-box .applet-box.off:checked StIcon {
+.panel-bottom .timepp-panel-box .applet-box:hover StLabel, .panel-bottom .timepp-panel-box .applet-box:hover StIcon, .panel-bottom .timepp-panel-box .applet-box:checked StLabel, .panel-bottom .timepp-panel-box .applet-box:checked StIcon {
   color: #eee;
 }
 
-.panel-left .timepp-panel-box .applet-box {
+.panel-left .timepp-panel-box .applet-box.on {
   border-image: url("img/panel/window-list__left__active.svg") 4;
 }
 
-.panel-left .timepp-panel-box .applet-box:hover, .panel-left .timepp-panel-box .applet-box:checked {
+.panel-left .timepp-panel-box .applet-box.on StLabel, .panel-left .timepp-panel-box .applet-box.on StIcon {
+  color: #eee;
+}
+
+.panel-left .timepp-panel-box .applet-box.on:hover, .panel-left .timepp-panel-box .applet-box.on:checked {
   border-image: url("img/panel/window-list__left__active__hover.svg") 4;
 }
 
-.panel-left .timepp-panel-box .applet-box.off {
+.panel-left .timepp-panel-box .applet-box {
   border-image: none;
 }
 
-.panel-left .timepp-panel-box .applet-box.off StLabel, .panel-left .timepp-panel-box .applet-box.off StIcon {
-  color: rgba(238, 238, 238, 0.65);
-}
-
-.panel-left .timepp-panel-box .applet-box.off:hover, .panel-left .timepp-panel-box .applet-box.off:checked {
+.panel-left .timepp-panel-box .applet-box:hover, .panel-left .timepp-panel-box .applet-box:checked {
   border-image: url("img/panel/applet__left__hover.svg") 4;
 }
 
-.panel-left .timepp-panel-box .applet-box.off:hover StLabel, .panel-left .timepp-panel-box .applet-box.off:hover StIcon, .panel-left .timepp-panel-box .applet-box.off:checked StLabel, .panel-left .timepp-panel-box .applet-box.off:checked StIcon {
+.panel-left .timepp-panel-box .applet-box:hover StLabel, .panel-left .timepp-panel-box .applet-box:hover StIcon, .panel-left .timepp-panel-box .applet-box:checked StLabel, .panel-left .timepp-panel-box .applet-box:checked StIcon {
   color: #eee;
 }
 
-.panel-right .timepp-panel-box .applet-box {
+.panel-right .timepp-panel-box .applet-box.on {
   border-image: url("img/panel/window-list__right__active.svg") 4;
 }
 
-.panel-right .timepp-panel-box .applet-box:hover, .panel-right .timepp-panel-box .applet-box:checked {
+.panel-right .timepp-panel-box .applet-box.on StLabel, .panel-right .timepp-panel-box .applet-box.on StIcon {
+  color: #eee;
+}
+
+.panel-right .timepp-panel-box .applet-box.on:hover, .panel-right .timepp-panel-box .applet-box.on:checked {
   border-image: url("img/panel/window-list__right__active__hover.svg") 4;
 }
 
-.panel-right .timepp-panel-box .applet-box.off {
+.panel-right .timepp-panel-box .applet-box {
   border-image: none;
 }
 
-.panel-right .timepp-panel-box .applet-box.off StLabel, .panel-right .timepp-panel-box .applet-box.off StIcon {
-  color: rgba(238, 238, 238, 0.65);
-}
-
-.panel-right .timepp-panel-box .applet-box.off:hover, .panel-right .timepp-panel-box .applet-box.off:checked {
+.panel-right .timepp-panel-box .applet-box:hover, .panel-right .timepp-panel-box .applet-box:checked {
   border-image: url("img/panel/applet__right__hover.svg") 4;
 }
 
-.panel-right .timepp-panel-box .applet-box.off:hover StLabel, .panel-right .timepp-panel-box .applet-box.off:hover StIcon, .panel-right .timepp-panel-box .applet-box.off:checked StLabel, .panel-right .timepp-panel-box .applet-box.off:checked StIcon {
+.panel-right .timepp-panel-box .applet-box:hover StLabel, .panel-right .timepp-panel-box .applet-box:hover StIcon, .panel-right .timepp-panel-box .applet-box:checked StLabel, .panel-right .timepp-panel-box .applet-box:checked StIcon {
   color: #eee;
+}
+
+.timepp-panel-box .applet-box.todo-panel-item.done StLabel,
+.timepp-panel-box .applet-box.todo-panel-item.done StIcon {
+  color: #4caf50;
 }
 
 .timepp-menu .numpicker {
@@ -3382,13 +3387,17 @@ use to override window-list-item-box */
   color: #1793d1;
 }
 
+.timepp-menu .timer-section .timer-header {
+  min-height: 18px;
+}
+
 .timepp-menu .pomo-section .settings-item:first-child {
   color: #f44336;
   font-weight: bold;
 }
 
 .timepp-menu .alarm-section .alarm-item {
-  border-image: url("img/containers/light-bg-marked-orange.svg") 10;
+  border-image: url("img/containers/light-bg-marked-green.svg") 10;
   max-width: 220px;
   padding: .8em .8em .8em 1.2em;
 }
@@ -3656,6 +3665,82 @@ use to override window-list-item-box */
 
 .timepp-menu .alarm-section .day:focus {
   outline: 0;
+}
+
+.timepp-menu .todo-section {
+  context-color: #4caf50;
+  project-color: #03a9f4;
+  link-color: #1793d1;
+}
+
+.timepp-menu .todo-section .delete-complete-tasks-label,
+.timepp-menu .todo-section .no-todo-file-msg {
+  color: #f44336;
+}
+
+.timepp-menu .todo-section .loading-msg {
+  color: #03a9f4;
+}
+
+.timepp-menu .todo-section .due-date-label {
+  color: #f44336;
+}
+
+.timepp-menu .todo-section .date-label,
+.timepp-menu .todo-section .task-item.completed .due-date-label {
+  color: rgba(238, 238, 238, 0.65);
+}
+
+.timepp-menu .todo-section .tracker-pause-icon, .timepp-menu .todo-section .filter-icon.active {
+  color: #eea84c;
+}
+
+.timepp-menu .todo-section .header StButton:hover, .timepp-menu .todo-section .header StButton:focus {
+  color: #1793d1;
+}
+
+.timepp-menu .todo-section .task-item {
+  border-image: url("img/containers/light-bg-marked-grey.svg") 10;
+}
+
+.timepp-menu .todo-section .task-item.completed {
+  border-image: url("img/containers/light-bg.svg") 10;
+}
+
+.timepp-menu .todo-section .task-item.A {
+  border-image: url("img/containers/light-bg-marked-orange.svg") 10;
+}
+
+.timepp-menu .todo-section .task-item.A .priority-label {
+  color: #1793d1;
+}
+
+.timepp-menu .todo-section .task-item.B {
+  border-image: url("img/containers/light-bg-marked-yellow.svg") 10;
+}
+
+.timepp-menu .todo-section .task-item.B .priority-label {
+  color: #eea84c;
+}
+
+.timepp-menu .todo-section .task-item.C {
+  border-image: url("img/containers/light-bg-marked-blue.svg") 10;
+}
+
+.timepp-menu .todo-section .task-item.C .priority-label {
+  color: #03a9f4;
+}
+
+.timepp-menu .todo-section .task-item.D {
+  border-image: url("img/containers/light-bg-marked-green.svg") 10;
+}
+
+.timepp-menu .todo-section .task-item.D .priority-label {
+  color: #4caf50;
+}
+
+.timepp-menu .todo-section .task-item.hidden {
+  border-image: url("img/containers/dark-bg.svg") 10;
 }
 
 /* ======================================
